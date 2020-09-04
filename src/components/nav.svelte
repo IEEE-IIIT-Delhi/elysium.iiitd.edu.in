@@ -1,7 +1,7 @@
 <script>
   import { fade } from 'svelte/transition'
   import MenuIcon from '../components/icons/menu.svelte'
-  let openMenu = false
+  let showMenu = false
 </script>
 
 <header>
@@ -16,14 +16,14 @@
       <li><a href="#sponsors">Sponsors</a></li>
     </ul>
 
-    <button class="menu-btn" role="button" on:click={() => openMenu = !openMenu}>
+    <button class="menu-btn" role="button" on:click={() => showMenu = !showMenu}>
       <MenuIcon strokeColor={'#4b6492'}/>
     </button>
 
-    {#if openMenu}
+    {#if showMenu}
       <ul class='hidden-list' transition:fade={{ duration: 200 }}>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#sponsors">Sponsors</a></li>
+        <li><a on:click={() => showMenu = false} href="#events">Events</a></li>
+        <li><a on:click={() => showMenu = false} href="#sponsors">Sponsors</a></li>
       </ul>
     {/if}
   </nav>
@@ -40,12 +40,14 @@
       margin: 20px auto;
       max-width: 1000px;
       border-radius: 10px;
-      backdrop-filter: blur(5px) brightness(65%);
+      backdrop-filter: blur(8px) brightness(65%);
       width: 90%;
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
+      border: 3px solid #09253c;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.12);
 
       a.header {
         text-decoration: none;
@@ -91,6 +93,10 @@
             background: #031b46d6;
             margin: 0 15px 15px 15px;
             border-radius: 5px;
+
+            a {
+              display: block;
+            }
           }
         }
       }

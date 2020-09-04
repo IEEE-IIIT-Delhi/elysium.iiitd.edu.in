@@ -31,7 +31,7 @@
       padding: 2vh;
       background: #040b18;
       border-radius: 10px;
-      border: 1px solid #03887640;
+      border: 3px dashed #25abf429;
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
       h3 {
