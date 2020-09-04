@@ -1,7 +1,7 @@
 <script>
   import { fade } from 'svelte/transition'
   import MenuIcon from '../components/icons/menu.svelte'
-  let openMenu = false;
+  let openMenu = false
 </script>
 
 <header>
@@ -17,7 +17,7 @@
     </ul>
 
     <button class="menu-btn" role="button" on:click={() => openMenu = !openMenu}>
-      <MenuIcon strokeColor={"#4b6492"}/>
+      <MenuIcon strokeColor={'#4b6492'}/>
     </button>
 
     {#if openMenu}
