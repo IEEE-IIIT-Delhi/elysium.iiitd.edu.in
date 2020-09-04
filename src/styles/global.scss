@@ -1,0 +1,30 @@
+@import "./theme.scss";
+
+html,
+body,
+:root {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: $font-default;
+  color: $color-text;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $color-bg;
+  -webkit-overflow-scrolling: touch;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}

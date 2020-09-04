@@ -1,0 +1,4 @@
+.routify
+dist
+node_modules
+scripts
