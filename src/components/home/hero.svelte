@@ -1,18 +1,8 @@
 <script>
-  import { onMount } from "svelte";
+  import { onMount } from 'svelte'
+  import Logo from './logo.svelte'
 
   let loaded = false
-  let scrollY
-  let innerHeight
-  let logo
-
-  function rotate() {
-    if (logo) {
-      logo.style.transform = `rotate(${Math.min(120, scrollY / innerHeight * 90)}deg)`
-    }
-  }
-
-  $: rotate(scrollY)
 
   onMount(async () => {
     await new Promise(res => setTimeout(res, 500))
@@ -20,15 +10,10 @@
   })
 </script>
 
-<svelte:window
-  bind:scrollY={scrollY}
-  bind:innerHeight={innerHeight}
-/>
-
 <section id="hero">
   <div class="container">
     <div class="main" class:loaded>
-      <img bind:this={logo} class="logo" src="/images/elysium-logo.svg" alt="Elsyium logo">
+      <Logo />
       <h1>ELYSIU<span class='no-letter-spacing'>M</span></h1>
       <h2>IEEE-IIITD's TechWeek</h2>
     </div>
@@ -54,17 +39,6 @@
 
       .main {
         text-align: center;
-
-        img.logo {
-          max-width: 400px;
-          filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.6));
-          transition: 0.1s all ease-out;
-
-          &:hover {
-            transform: rotate(120deg) scale(1.2) !important;
-            transition-duration: 0.5s !important;
-          }
-        }
 
         h1 {
           letter-spacing: 20px;
