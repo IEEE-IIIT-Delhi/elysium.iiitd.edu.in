@@ -3,6 +3,7 @@ import autoPreprocess from 'svelte-preprocess'
 import postcssImport from 'postcss-import'
 import autoprefixer from 'autoprefixer'
 import cssnano from 'cssnano'
+import yaml from '@rollup/plugin-yaml'
 
 const production = !process.env.ROLLUP_WATCH
 
@@ -12,7 +13,10 @@ export const config = {
   buildDir: 'dist/build',
   serve: !production,
   production,
-  rollupWrapper: rollup => rollup,
+  rollupWrapper: cfg => {
+    cfg.plugins.push(yaml())
+    return cfg
+  },
   svelteWrapper: svelte => {
     svelte.preprocess = [
       autoPreprocess({

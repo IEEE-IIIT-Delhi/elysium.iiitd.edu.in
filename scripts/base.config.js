@@ -8,7 +8,6 @@ import copy from 'rollup-plugin-copy'
 import del from 'del'
 import replace from '@rollup/plugin-replace';
 import { spassr } from 'spassr'
-import yaml from '@rollup/plugin-yaml';
 
 const isNollup = !!process.env.NOLLUP
 
@@ -80,7 +79,6 @@ function baseConfig(config, ctx) {
                 dedupe: importee => !!importee.match(/svelte(\/|$)/)
             }),
             commonjs(),
-            yaml(),
 
             production && terser(), // minify
             !production && isNollup && Hmr({ inMemory: true, public: staticDir, }), // refresh only updated code
@@ -122,8 +120,7 @@ function serviceWorkerConfig(config) {
             commonjs(),
             resolve({ browser: true }),
             production && terser(),
-            replace({ 'process.env.NODE_ENV': "'production'" }),
-            yaml()
+            replace({ 'process.env.NODE_ENV': "'production'" })
         ]
     }
     const rollupConfig = swWrapper(_rollupConfig, {}) || _rollupConfig
