@@ -1,5 +1,6 @@
 <script>
   import { fade } from 'svelte/transition'
+  import Logo from './home/logo.svelte'
   import Chevron from './icons/chevron.svelte'
   let showMenu = false
 </script>
@@ -7,8 +8,8 @@
 <header>
   <nav>
     <a href="/" class='header'>
-      <img src="/images/elysium-logo.svg" alt="Elysium logo">
-      ELYSIUM
+      <Logo size={30} moveLogo={false}/>
+      <span>ELYSIUM</span>
     </a>
 
     <ul class='main-list'>
@@ -61,7 +62,10 @@
 
         img {
           height: 30px;
-          margin-right: 20px;
+        }
+
+        span {
+          margin-left: 20px;
         }
       }
 

@@ -1,5 +1,5 @@
 <script>
-  import events from '../../data/events.yml'
+  import events from '../../../data/events.yml'
 </script>
 
 <section id='events' class='page-section'>
