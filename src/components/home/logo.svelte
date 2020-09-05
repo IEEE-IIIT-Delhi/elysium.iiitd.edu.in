@@ -9,11 +9,11 @@
   let logoContainer
 
   const positionX = tweened(0, {
-    duration: 100,
+    duration: 400,
     easing: cubicOut
   });
   const positionY = tweened(0, {
-    duration: 100,
+    duration: 400,
     easing: cubicOut
   })
 
@@ -33,8 +33,8 @@
       logoY = logoY + window.pageYOffset
       mouseY = mouseY + window.pageYOffset
 
-      positionX.set(clamp(mouseX - logoX, -300, 300) / 600 * 20)
-      positionY.set(clamp(mouseY - logoY, -300, 300) / 600 * 20)
+      positionX.set(clamp(mouseX - logoX, -300, 300) / 600 * 40)
+      positionY.set(clamp(mouseY - logoY, -300, 300) / 600 * 40)
     }
   }
 

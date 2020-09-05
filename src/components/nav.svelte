@@ -1,6 +1,6 @@
 <script>
   import { fade } from 'svelte/transition'
-  import MenuIcon from '../components/icons/menu.svelte'
+  import Chevron from './icons/chevron.svelte'
   let showMenu = false
 </script>
 
@@ -8,7 +8,7 @@
   <nav>
     <a href="/" class='header'>
       <img src="/images/elysium-logo.svg" alt="Elysium logo">
-      ELYISUM
+      ELYSIUM
     </a>
 
     <ul class='main-list'>
@@ -17,7 +17,7 @@
     </ul>
 
     <button class="menu-btn" role="button" on:click={() => showMenu = !showMenu}>
-      <MenuIcon strokeColor={'#4b6492'}/>
+      <Chevron strokeColor={'#4b6492'} open={showMenu}/>
     </button>
 
     {#if showMenu}
@@ -103,17 +103,22 @@
 
       button.menu-btn {
         display: none;
-        border: none;
+        border: 1px solid transparent;
         border-radius: 5px;
         margin-right: 15px;
         padding: 5px;
-        background: #031b46d6;
+        background: none;
         height: fit-content;
         cursor: pointer;
         outline: none;
+        -webkit-tap-highlight-color: transparent;
 
         svg {
           height: 25px;
+        }
+
+        &:focus {
+          border-color: #09253c;
         }
       }
 
