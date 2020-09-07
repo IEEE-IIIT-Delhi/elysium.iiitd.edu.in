@@ -54,8 +54,8 @@
       let { beta, gamma } = event
       beta = clamp(beta, -90, 90)
 
-      positionX.set(beta / 90 * 40)
-      positionY.set(gamma / 90 * 40)
+      positionX.set(gamma / 90 * 40)
+      positionY.set(beta / 90 * 40)
     }
   }
 

@@ -141,7 +141,10 @@
         max-width: 100%;
 
         &, * {
-        transition: 0.1s all ease-in-out;
+        transition: 0.1s border-color ease-in-out,
+                    0.1s background-color ease-in-out,
+                    0.1s color ease-in-out,
+                    0.1s box-shadow ease-in-out;
         }
 
         label {
