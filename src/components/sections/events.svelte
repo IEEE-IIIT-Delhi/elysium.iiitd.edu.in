@@ -1,24 +1,20 @@
 <script>
   import events from '../../../data/events.yml'
+  import Section from '../section.svelte'
 </script>
 
-<section id='events' class='page-section'>
-  <div class="container">
-    <h2>Events</h2>
-    <div class="gallery">
-      {#each events as event}
-        <div class="event">
-          <h3>{event.name}</h3>
-          <p>{event.about}</p>
-        </div>
-      {/each}
-    </div>
+<Section id={'events'} heading={'Events'} >
+  <div class="gallery">
+    {#each events as event}
+      <div class="event">
+        <h3>{event.name}</h3>
+        <p>{event.about}</p>
+      </div>
+    {/each}
   </div>
-</section>
+</Section>
 
 <style lang="scss">
-  @import "../../styles/common.scss";
-
   .gallery {
     display: flex;
     flex-wrap: wrap;

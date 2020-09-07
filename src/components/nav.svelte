@@ -1,30 +1,37 @@
 <script>
   import { fade } from 'svelte/transition'
-  import Logo from './home/logo.svelte'
+  import links from '../../data/links.yml'
+
+  import Logo from './logo.svelte'
   import Chevron from './icons/chevron.svelte'
+
   let showMenu = false
 </script>
 
 <header>
   <nav>
     <a href="/" class='header'>
-      <Logo size={30} moveLogo={false}/>
+      <Logo size={'30px'} moveLogo={false}/>
       <span>ELYSIUM</span>
     </a>
 
+    <!-- Desktop view -->
     <ul class='main-list'>
-      <li><a href="#events">Events</a></li>
-      <li><a href="#sponsors">Sponsors</a></li>
+      {#each links as link}
+        <li><a href="{link.href}">{link.name}</a></li>
+      {/each}
     </ul>
 
+    <!-- Mobile view -->
     <button class="menu-btn" role="button" on:click={() => showMenu = !showMenu}>
       <Chevron strokeColor={'#4b6492'} open={showMenu}/>
     </button>
 
     {#if showMenu}
       <ul class='hidden-list' transition:fade={{ duration: 200 }}>
-        <li><a on:click={() => showMenu = false} href="#events">Events</a></li>
-        <li><a on:click={() => showMenu = false} href="#sponsors">Sponsors</a></li>
+        {#each links as link}
+          <li><a on:click={() => showMenu = false} href="{link.href}">{link.name}</a></li>
+        {/each}
       </ul>
     {/if}
   </nav>
@@ -71,6 +78,7 @@
 
       ul {
         display: flex;
+        align-self: stretch;
 
         li {
           list-style-type: none;
@@ -80,7 +88,30 @@
             text-decoration: none;
             color: #acc9ff;
             font-weight: 300;
-            font-size: 1.2rem;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            position: relative;
+            font-weight: 400;
+
+            &::before {
+              content: '';
+                  content: "";
+                  display: block;
+                  height: 100%;
+                  width: 0%;
+                  background: #1e5ed426;
+                  position: absolute;
+                  left: 0;
+                  bottom: 0px;
+                  transition: 0.1s all ease-out;
+            }
+
+            &:hover::before {
+              width: 100%;
+            }
           }
         }
 
@@ -126,7 +157,7 @@
         }
       }
 
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 800px) {
         button.menu-btn {
           display: flex;
         }

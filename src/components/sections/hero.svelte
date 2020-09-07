@@ -1,11 +1,10 @@
 <script>
   import { onMount } from 'svelte'
-  import Logo from './logo.svelte'
+  import Logo from '../logo.svelte'
 
   let loaded = false
 
-  onMount(async () => {
-    await new Promise(res => setTimeout(res, 500))
+  onMount(() => {
     loaded = true
   })
 </script>

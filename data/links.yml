@@ -1,0 +1,11 @@
+- name: Events
+  href: '/#events'
+
+- name: Timeline
+  href: '/#timeline'
+
+- name: Sponsors
+  href: '/#sponsors'
+
+- name: Contact
+  href: '/#contact'
