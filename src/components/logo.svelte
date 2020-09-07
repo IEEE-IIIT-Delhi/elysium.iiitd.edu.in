@@ -44,8 +44,8 @@
 
       mouseY = mouseY + window.pageYOffset
 
-      positionX.set(clamp(mouseX - logoX, -300, 300) / 300 * 20)
-      positionY.set(clamp(mouseY - logoY, -300, 300) / 300 * 20)
+      positionX.set(clamp(mouseX - logoX, -300, 300) / 300 * 10)
+      positionY.set(clamp(mouseY - logoY, -300, 300) / 300 * 10)
     }
   }
 

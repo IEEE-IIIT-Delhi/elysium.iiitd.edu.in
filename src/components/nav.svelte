@@ -56,6 +56,7 @@
       flex-wrap: wrap;
       border: 1px solid #09253c;
       box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+      overflow: hidden;
 
       a.header {
         text-decoration: none;

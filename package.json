@@ -48,6 +48,7 @@
     "@rollup/plugin-replace": "^2.3.3",
     "@rollup/plugin-yaml": "^2.1.1",
     "@sveltech/routify": "^1.9.7",
+    "email-validator": "^2.0.4",
     "postcss-import": "^12.0.1",
     "svelte": "^3.23.2",
     "svelte-preprocess": "^4.0.8",
