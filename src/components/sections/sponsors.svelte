@@ -47,7 +47,7 @@
         opacity: 1;
 
         img {
-          filter: saturate(100%) drop-shadow(2px 5px 10px rgba(0,0,0,0.5));
+          filter: saturate(100%);
           transform: scale(1.1);
         }
       }
@@ -71,7 +71,7 @@
       align-self: center;
       border-radius: 10px;
       transition: 0.1s all ease-in-out;
-      filter: saturate(0%) drop-shadow(2px 10px 20px rgba(0,0,0,0.5));
+      filter: saturate(0%);
 
       @media only screen and (max-width: 800px) {
         filter: saturate(75%);
