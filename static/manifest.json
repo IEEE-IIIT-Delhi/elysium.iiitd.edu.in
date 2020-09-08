@@ -1,20 +1,19 @@
 {
-  "background_color": "#ffffff",
-  "theme_color": "#E938C2",
-  "name": "Routify app",
-  "short_name": "Routify app",
-  "start_url": "/",
-  "display": "standalone",
+  "name": "Elysium by IEEE IIIT Delhi",
+  "short_name": "Elysium",
   "icons": [
     {
-      "src": "/images/touch-icons/logo-192.png",
+      "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/images/touch-icons/logo-800.png",
-      "sizes": "800x800",
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "theme_color": "#061125",
+  "background_color": "#061125",
+  "display": "standalone"
 }

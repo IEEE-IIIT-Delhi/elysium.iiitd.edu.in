@@ -9,7 +9,7 @@
     {#each sponsors as sponsor}
       <a href='{sponsor.link}' target='_blank' rel='noopener'>
         <div class="image-wrapper">
-          <img src={sponsor.image} alt="{sponsors.name} logo"/>
+          <img src={sponsor.image} alt="{sponsor.name} logo"/>
         </div>
         <span>
           {sponsor.name}

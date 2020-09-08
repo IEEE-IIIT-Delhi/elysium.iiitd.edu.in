@@ -9,11 +9,13 @@
   let emailSubmitted = false
   let email = ''
 
+  const wait = async ms => new Promise((resolve, reject) => setTimeout(resolve, ms))
+
   async function submitEmail (event) {
     event.preventDefault()
     if (!validate(email)) {
       buttonText = 'Error!'
-      await new Promise(res => setTimeout(res, 1000))
+      await wait(1000)
     }
 
     buttonText = 'Signing up...'
@@ -29,13 +31,13 @@
     if (json.success) {
       localStorage.setItem('emailSubmitted', true)
       buttonText = 'Done!'
-      await new Promise(res => setTimeout(res, 1000))
+      await wait(1000)
       emailSubmitted = true
       return
     }
 
     buttonText = 'Error!'
-    await new Promise(res => setTimeout(res, 1000))
+    await wait(1000)
     buttonText = 'Sign up!'
   }
 

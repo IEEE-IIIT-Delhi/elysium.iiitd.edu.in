@@ -32,25 +32,9 @@ export const config = {
         },
         defaults: { style: 'postcss' }
       })]
-  },
-  swWrapper: worker => worker
+  }
 }
 
 const configs = createRollupConfigs(config)
 
 export default configs
-
-/**
-  Wrappers can either mutate or return a config
-
-  wrapper example 1
-  svelteWrapper: (cfg, ctx) => {
-    cfg.preprocess: mdsvex({ extension: '.md' }),
-  }
-
-  wrapper example 2
-  rollupWrapper: cfg => {
-    cfg.plugins = [...cfg.plugins, myPlugin()]
-    return cfg
-  }
-*/
