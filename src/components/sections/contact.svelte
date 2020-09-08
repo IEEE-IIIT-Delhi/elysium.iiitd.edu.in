@@ -12,6 +12,7 @@
       <div class="contact">
         <img src={contact.image} alt="{contact.name} photo">
         <h3>{contact.name}</h3>
+        <h4>{contact.post}</h4>
         <p><span>Phone:</span> <a href="tel:{contact.phone}">{contact.phone}</a></p>
         <p><span>Email:</span> <a href="mailto:{contact.email}">{contact.email}</a></p>
         <p><span>Instagram:</span> <a href="https://instagram.com/{contact.instagram}" target='_blank' rel='noopener'>{contact.instagram}</a></p>
@@ -26,6 +27,7 @@
     line-height: 1.7;
     font-size: 1.1rem;
     color: #a9acb2;
+    letter-spacing: 0;
   }
 
   a {
@@ -59,8 +61,16 @@
       h3 {
         font-size: 1.3rem;
         font-weight: 900;
-        color: #006deb;
+        color: #4271a7;
         margin-bottom: 10px;
+      }
+
+      h4 {
+        font-size: 1rem;
+        font-weight: 300;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        color: #eee9;
       }
 
       p {
