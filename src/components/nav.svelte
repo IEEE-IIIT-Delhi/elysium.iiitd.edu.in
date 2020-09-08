@@ -96,22 +96,25 @@
             align-items: center;
             position: relative;
             font-weight: 400;
+            outline: none;
 
             &::before {
-              content: '';
-                  content: "";
-                  display: block;
-                  height: 100%;
-                  width: 0%;
-                  background: #1e5ed426;
-                  position: absolute;
-                  left: 0;
-                  bottom: 0px;
-                  transition: 0.1s all ease-out;
+              content: "";
+              display: block;
+              height: 100%;
+              width: 0%;
+              background: #1e5ed426;
+              position: absolute;
+              left: 0;
+              bottom: 0px;
+              transition: 0.1s all ease-out;
             }
 
-            &:hover::before {
-              width: 100%;
+            &:hover,
+            &:focus {
+              &::before {
+                width: 100%;
+              }
             }
           }
         }

@@ -1,0 +1,43 @@
+- name: ShubhiTech
+  link: https://www.shubhitech.com
+  image: /images/sponsors/shubhi-tech.png
+
+- name: Repl.It
+  link: https://repl.it
+  image: /images/sponsors/repl-it.png
+
+- name: EchoAR
+  link: https://www.echoar.xyz
+  image: /images/sponsors/echo-ar.png
+
+- name: Balsamiq
+  link: https://balsamiq.com/
+  image: /images/sponsors/balsamiq.png
+
+- name: Sticker Mule
+  link: https://www.stickermule.com
+  image: /images/sponsors/sticker-mule.png
+
+- name: Bugsee
+  link: https://www.bugsee.com/
+  image: /images/sponsors/bugsee.png
+
+- name: ICSE Memes
+  link: https://www.instagram.com/icse_toughest_of_all_existing
+  image: /images/sponsors/icse-memes.png
+
+- name: Devfolio
+  link: https://devfolio.co
+  image: /images/sponsors/devfolio.png
+
+- name: Matic
+  link: https://matic.network/
+  image: /images/sponsors/matic.png
+
+- name: Fold
+  link: https://fold.money
+  image: /images/sponsors/fold.png
+
+- name: Portis by ShapeShift
+  link: https://www.portis.io/
+  image: /images/sponsors/portis.png
