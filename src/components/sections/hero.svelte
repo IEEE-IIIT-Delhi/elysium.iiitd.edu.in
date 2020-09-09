@@ -2,6 +2,7 @@
   import { onMount } from 'svelte'
   import { fade } from 'svelte/transition'
   import { validate } from 'email-validator'
+  import { wait } from '../../utils'
 
   import Logo from '../logo.svelte'
   import YoutubeIcon from '../icons/youtube.svelte'
@@ -16,8 +17,6 @@
   $: labelText = emailSubmitted
     ? 'Thanks for signing up! You will now receive updates :)'
     : 'Sign up for updates!'
-
-  const wait = async ms => new Promise((resolve, reject) => setTimeout(resolve, ms))
 
   async function submitEmail (event) {
     event.preventDefault()
@@ -112,7 +111,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      margin-top: calc(10vh + 100px);
+      margin-top: calc(10vh + 40px);
 
       .main {
         text-align: center;

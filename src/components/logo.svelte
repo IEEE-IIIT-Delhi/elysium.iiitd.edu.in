@@ -1,6 +1,12 @@
 <script>
+  import { onMount } from 'svelte'
   import { tweened } from 'svelte/motion'
   import { cubicOut } from 'svelte/easing'
+  import { clamp, isIos } from '../utils'
+
+  export let size = 'auto'
+  export let moveLogo = true
+  export let rotateLogo = true
 
   let scrollY
   let innerHeight
@@ -10,10 +16,10 @@
   let logoY
   let bluePortion
   let greenPortion
-
-  export let size = 'auto'
-  export let moveLogo = true
-  export let rotateLogo = true
+  let isIosDevice = false
+  let rotateChecks = false
+  let moveCursorChecks = false
+  let moveOrientationChecks = false
 
   const positionX = tweened(0, {
     duration: 400,
@@ -24,18 +30,16 @@
     easing: cubicOut
   })
 
-  const clamp = (num, min, max) => num <= min ? min : num >= max ? max : num
-
   function rotate () {
-    if (rotateLogo && logo) {
+    if (rotateChecks) {
       const angle = scrollY / innerHeight * 120
       bluePortion.style.transform = `rotate(${angle}deg)`
       greenPortion.style.transform = `rotate(-${angle}deg)`
     }
   }
 
-  function moveLogoCursor (event) {
-    if (moveLogo && logo) {
+  function moveCursor (event) {
+    if (moveCursorChecks) {
       if (!logoX) {
         const boundingRect = logo.getBoundingClientRect()
         logoX = boundingRect.x
@@ -50,13 +54,8 @@
     }
   }
 
-  function moveLogoOrientation (event) {
-    if (
-      moveLogo &&
-      window.DeviceOrientationEvent &&
-      'ontouchstart' in window &&
-      logo
-    ) {
+  function moveOrientation (event) {
+    if (moveOrientationChecks) {
       let { beta, gamma } = event
       beta = 90 - clamp(beta, -90, 90)
 
@@ -66,14 +65,26 @@
   }
 
   $: rotate(scrollY)
+
+  onMount(() => {
+    isIosDevice = isIos()
+    rotateChecks = !isIosDevice && rotateLogo && logo
+    moveCursorChecks = !isIosDevice && moveLogo && logo
+    moveOrientationChecks =
+      !isIosDevice &&
+      moveLogo &&
+      window.DeviceOrientationEvent &&
+      'ontouchstart' in window &&
+      logo
+  })
 </script>
 
 <svelte:window
   bind:scrollY
   bind:innerHeight
   bind:innerWidth
-  on:mousemove={moveLogoCursor}
-  on:deviceorientation={moveLogoOrientation}
+  on:mousemove={moveCursor}
+  on:deviceorientation={moveOrientation}
 />
 
 <svg
