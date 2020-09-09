@@ -26,7 +26,6 @@
     transition: 0.1s all ease-in;
     letter-spacing: 0;
     font-size: 0.9rem;
-    font-weight: 600;
 
     &:hover {
       opacity: 1;
@@ -41,6 +40,7 @@
     a {
       text-decoration: none;
       color: #038876;
+      font-weight: 600;
 
       &:hover {
         text-decoration: underline;
