@@ -51,7 +51,12 @@
   }
 
   function moveLogoOrientation (event) {
-    if (moveLogo && logo) {
+    if (
+      moveLogo &&
+      window.DeviceOrientationEvent &&
+      'ontouchstart' in window &&
+      logo
+    ) {
       let { beta, gamma } = event
       beta = 90 - clamp(beta, -90, 90)
 

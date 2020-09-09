@@ -32,7 +32,8 @@ export const config = {
         },
         defaults: { style: 'postcss' }
       })]
-  }
+  },
+  swWrapper: worker => worker
 }
 
 const configs = createRollupConfigs(config)

@@ -9,7 +9,7 @@
       moveLogo={false}
       rotateLogo={false}
     />
-    Elysium is undertaken, organised and hosted by <a href="http://ieee.iiitd.edu.in" target="_blank" rel="noopener">IEEE @ IIIT Delhi</a>
+    Elysium is undertaken, organised and hosted by <a href="https://ieee.iiitd.edu.in" target="_blank" rel="noopener">IEEE @ IIIT Delhi</a>
   </p>
   <p>Built by <a href="https://mihir.ch" target="_blank" rel="noopener">Mihir Chaturvedi</a> &middot; Graphics by Prakhar Prasad</p>
   <p>&copy; 2020 IEEE - IIIT Delhi</p>
@@ -26,6 +26,7 @@
     transition: 0.1s all ease-in;
     letter-spacing: 0;
     font-size: 0.9rem;
+    font-weight: 600;
 
     &:hover {
       opacity: 1;

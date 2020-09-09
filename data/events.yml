@@ -1,14 +1,24 @@
 - name: Sadda Hack
-  about: 36-hour long flagship hackathon
+  about: |
+    Ipsum ea Lorem elit anim aute culpa sint aliqua tempor incididunt velit laborum amet.
+    Occaecat excepteur elit officia dolor ut ullamco minim.
 
 - name: Fortnightathon 2.0
-  about: Five-day long coding challenge
+  about: |
+    Dolor labore quis eu incididunt voluptate quis aliqua sint laborum anim sunt ex irure aliquip.
+    Ex anim sint consectetur tempor aliqua ad do.
 
 - name: Shibui
-  about: Designathon
+  about: |
+    Sit adipisicing proident adipisicing et sint do irure irure aute nostrud nostrud dolor officia velit.
+    Nostrud labore sunt cupidatat veniam sunt sint ullamco incididunt ea cillum adipisicing.
 
 - name: Slash
-  about: Cryptic Hunt
+  about: |
+    Aliqua excepteur consectetur dolore pariatur qui exercitation eu et in qui.
+    Et pariatur anim ea qui dolor commodo proident enim exercitation.
 
 - name: Machine Wars
-  about: ML-based competition
+  about: |
+    Aliqua exercitation ad magna velit mollit cillum Lorem Lorem.
+    Exercitation occaecat laboris cillum velit et do in id mollit deserunt exercitation eu.

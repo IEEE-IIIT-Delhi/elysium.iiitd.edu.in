@@ -24,12 +24,11 @@
   .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    justify-content: space-evenly;
     margin: 2vh -2.5vh;
 
     a {
       margin: 5vh 5vh;
+      flex: 1;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -67,7 +66,7 @@
 
     img {
       max-height: 75px;
-      max-width: 300px;
+      max-width: 250px;
       align-self: center;
       border-radius: 10px;
       transition: 0.1s all ease-in-out;

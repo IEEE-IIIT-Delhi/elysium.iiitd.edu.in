@@ -2,7 +2,10 @@
   import { onMount } from 'svelte'
   import { fade } from 'svelte/transition'
   import { validate } from 'email-validator'
+
   import Logo from '../logo.svelte'
+  import YoutubeIcon from '../icons/youtube.svelte'
+  import LinkIcon from '../icons/link.svelte'
 
   let email = ''
   let loaded = false
@@ -70,6 +73,17 @@
       </h3>
     </div>
 
+    <a
+      class='intro-video'
+      href=''
+      target='_blank'
+      rel='noopener'
+    >
+      <YoutubeIcon size='20px' />
+      <span>Watch our intro video!</span>
+      <LinkIcon strokeColor='#eee' />
+    </a>
+
     <form on:submit={submitEmail}>
       <label for="updated-email-input">{labelText}</label>
       {#if !emailSubmitted}
@@ -98,7 +112,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      margin-top: calc(10vh + 40px);
+      margin-top: calc(10vh + 100px);
 
       .main {
         text-align: center;
@@ -138,6 +152,23 @@
           h1::after {
             width: 100%;
           }
+        }
+      }
+
+      a.intro-video {
+        margin-top: 5vh;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #038876;
+        font-weight: 600;
+
+        span {
+          margin-left: 10px;
+        }
+
+        &:hover {
+          text-decoration: underline;
         }
       }
 

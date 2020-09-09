@@ -7,6 +7,7 @@ import { terser } from 'rollup-plugin-terser'
 import copy from 'rollup-plugin-copy'
 import del from 'del'
 import { spassr } from 'spassr'
+import replace from '@rollup/plugin-replace'
 
 const isNollup = !!process.env.NOLLUP
 
@@ -27,7 +28,8 @@ export function createRollupConfigs (config) {
   // Combine configs as needed
   return [
     !isNollup && baseConfig(config, { dynamicImports: false }),
-    useDynamicImports && baseConfig(config, { dynamicImports: true })
+    useDynamicImports && baseConfig(config, { dynamicImports: true }),
+    !isNollup && serviceWorkerConfig(config)
   ].filter(Boolean)
 }
 
@@ -63,7 +65,7 @@ function baseConfig (config, ctx) {
     plugins: [
       copy({
         targets: [
-          { src: [`${staticDir}/*`, '!*/(__index.html)'], dest: distDir },
+          { src: [`${staticDir}/*`, '!*/(__index.html)', `${staticDir}/.htaccess`], dest: distDir },
           { src: [`${staticDir}/__index.html`], dest: distDir, rename: '__app.html', transform }
         ],
         copyOnce: true,
@@ -98,4 +100,34 @@ function baseConfig (config, ctx) {
     const bundleTag = '<script defer src="/build/bundle.js"></script>'
     return contents.toString().replace('__SCRIPT__', dynamicImports ? scriptTag : bundleTag)
   }
+}
+
+function serviceWorkerConfig (config) {
+  const {
+    distDir,
+    production,
+    swWrapper
+  } = config
+  const _rollupConfig = {
+    input: 'src/sw.js',
+    output: {
+      name: 'service_worker',
+      sourcemap: true,
+      format: 'iife',
+      file: `${distDir}/sw.js`
+    },
+    plugins: [
+      commonjs(),
+      resolve({
+        browser: true
+      }),
+      production && terser(),
+      replace({
+        'process.env.NODE_ENV': "'production'"
+      })
+    ]
+  }
+  const rollupConfig = swWrapper(_rollupConfig, {}) || _rollupConfig
+
+  return rollupConfig
 }

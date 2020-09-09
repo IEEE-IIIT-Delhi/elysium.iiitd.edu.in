@@ -4,7 +4,7 @@
 </script>
 
 <Section id={'contact'} heading={'Contact'} >
-  <p>Elysium is being hosted by the IEEE Chapter of <a href='https://iiitd.ac.in' target='_blank' rel='noopener'>Indraprastha Institute of Information Technology, Delhi</a>. Get to know more about us at <a href='http://ieee.iiitd.edu.in' target='_blank' rel='noopener'>ieee.iiitd.edu.in</a>.</p>
+  <p>Elysium is being hosted by the IEEE Chapter of <a href='https://iiitd.ac.in' target='_blank' rel='noopener'>Indraprastha Institute of Information Technology, Delhi</a>. Get to know more about us at <a href='https://ieee.iiitd.edu.in' target='_blank' rel='noopener'>ieee.iiitd.edu.in</a>.</p>
   <p>The fastest way to reach us is by contacting any of the following admins on their Instagram DMs.</p>
 
   <div class="gallery">
@@ -51,6 +51,7 @@
       align-items: flex-start;
       margin: 3vh;
       flex: 1;
+      white-space: nowrap;
 
       img {
         height: 150px;
@@ -66,7 +67,7 @@
       }
 
       h4 {
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-weight: 300;
         margin-bottom: 10px;
         letter-spacing: 1px;

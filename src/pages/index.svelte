@@ -1,5 +1,5 @@
 <script>
-  import { onMount } from 'svelte';
+  import { onMount } from 'svelte'
 
   import Hero from '../components/sections/hero.svelte'
   import Events from '../components/sections/events.svelte'
