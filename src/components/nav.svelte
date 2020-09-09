@@ -150,7 +150,6 @@
         height: fit-content;
         cursor: pointer;
         outline: none;
-        -webkit-tap-highlight-color: transparent;
 
         svg {
           height: 25px;
