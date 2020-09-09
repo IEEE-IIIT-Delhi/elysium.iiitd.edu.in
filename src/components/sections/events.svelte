@@ -31,7 +31,7 @@
 
       h3 {
         font-weight: 900;
-        color: #25abf4;
+        color: #98bce6;
         font-size: 1.5rem;
         letter-spacing: 1px;
         margin-bottom: 10px;

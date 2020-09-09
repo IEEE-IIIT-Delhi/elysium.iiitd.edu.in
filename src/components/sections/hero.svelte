@@ -4,10 +4,15 @@
   import { validate } from 'email-validator'
   import Logo from '../logo.svelte'
 
-  let loaded = false
-  let buttonText = 'Sign up!'
-  let emailSubmitted = false
   let email = ''
+  let loaded = false
+  let emailSubmitted = false
+  let buttonText = 'Sign up!'
+  let labelText = 'Sign up for updates!'
+
+  $: labelText = emailSubmitted
+    ? 'Thanks for signing up! You will now receive updates :)'
+    : 'Sign up for updates!'
 
   const wait = async ms => new Promise((resolve, reject) => setTimeout(resolve, ms))
 
@@ -30,13 +35,18 @@
 
     if (json.success) {
       localStorage.setItem('emailSubmitted', true)
+      window.sa_event('email_signup_success')
+
       buttonText = 'Done!'
       await wait(1000)
+
       emailSubmitted = true
       return
     }
 
+    window.sa_event('email_signup_error')
     buttonText = 'Error!'
+
     await wait(1000)
     buttonText = 'Sign up!'
   }
@@ -61,11 +71,7 @@
     </div>
 
     <form on:submit={submitEmail}>
-      <label for="updated-email-input">{
-        emailSubmitted
-          ? 'Thanks for signing up! You will now receive updates :)'
-          : 'Sign up for updates!'
-      }</label>
+      <label for="updated-email-input">{labelText}</label>
       {#if !emailSubmitted}
         <div class='input-wrapper' transition:fade={{ duration: 200 }}>
           <input bind:value={email} type="email" id="updated-email-input" placeholder="Email ID" required>
@@ -185,6 +191,7 @@
           border-radius: 0 5px 5px 0;
           cursor: pointer;
           outline: none;
+          white-space: nowrap;
 
           &:active,
           &:hover,

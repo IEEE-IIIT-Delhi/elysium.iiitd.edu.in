@@ -45,7 +45,7 @@
     width: 100%;
 
     nav {
-      margin: 20px auto;
+      margin: 20px auto 0;
       max-width: 1000px;
       border-radius: 10px;
       backdrop-filter: blur(8px) brightness(65%);

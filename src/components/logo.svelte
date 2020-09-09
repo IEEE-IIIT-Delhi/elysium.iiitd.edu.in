@@ -13,6 +13,7 @@
 
   export let size = 'auto'
   export let moveLogo = true
+  export let rotateLogo = true
 
   const positionX = tweened(0, {
     duration: 400,
@@ -26,7 +27,7 @@
   const clamp = (num, min, max) => num <= min ? min : num >= max ? max : num
 
   function rotate () {
-    if (logo) {
+    if (rotateLogo && logo) {
       const angle = scrollY / innerHeight * 120
       bluePortion.style.transform = `rotate(${angle}deg)`
       greenPortion.style.transform = `rotate(-${angle}deg)`
@@ -52,7 +53,7 @@
   function moveLogoOrientation (event) {
     if (moveLogo && logo) {
       let { beta, gamma } = event
-      beta = clamp(beta, -90, 90)
+      beta = 90 - clamp(beta, -90, 90)
 
       positionX.set(gamma / 90 * 40)
       positionY.set(beta / 90 * 40)
