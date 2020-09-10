@@ -5,9 +5,9 @@
     "build": "sapper build --legacy",
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
-    "clean-after": "rimraf __sapper__/export/images/**/*.webp",
+    "post-export": "rimraf __sapper__/export/images/**/*.webp",
     "optimize-images": "node scripts/optimize-images",
-    "prod": "run-s export clean-after optimize-images",
+    "prod": "run-s export post-export optimize-images",
     "lint": "eslint . --ext .js,.svelte",
     "lint:fix": "eslint . --ext .js,.svelte --fix"
   },
