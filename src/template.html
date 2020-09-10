@@ -4,13 +4,14 @@
 
 <head>
   <title>Elysium · IEEE IIIT Delhi's TechWeek</title>
+  %sapper.base%
 
   <!-- Primary meta tags -->
   <meta name="title" content="Elysium · IEEE IIIT Delhi's TechWeek">
   <meta name="description" content="25th October to 31st October 2020">
   <meta name="keywords" content="IIIT, IIITD, IIIT Delhi, Elysium, IEEE, IEEE IIIT Delhi, Hackathon, Sadda Hack">
   <meta name="robots" content="index, follow">
-  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="language" content="English">
   <meta name="author" content="Mihir Chaturvedi (plibither8)">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -31,7 +32,6 @@
   <meta property="twitter:image" content="/meta/site-card.jpeg">
 
   <!-- Miscellaneous tags-->
-  <link rel="license" href="LICENSE">
   <link rel="me" href="mailto:ieee@iiitd.ac.in">
   <link rel="me" href="https://github.com/plibither8" type="text/html">
 
@@ -47,19 +47,21 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- Styles-->
-  <link rel='stylesheet' href='/build/bundle.css'>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;700;900&display=swap">
+  %sapper.styles%
 
   <!-- Svelte script -->
-  __SCRIPT__
+  %sapper.scripts%
 
   <!-- Analytics -->
-  <script>window.sa_event=window.sa_event||function(){a=[].slice.call(arguments);sa_event.q?sa_event.q.push(a):sa_event.q=[a]};</script>
+  <script>window.sa_event = window.sa_event || function () {a = [].slice.call(arguments); sa_event.q ? sa_event.q.push(a) : sa_event.q = [a]};</script>
   <script data-mode="hash" data-skip-dnt="true" async defer src="https://sa.mihir.ch/latest.js"></script>
+
+  %sapper.head%
 </head>
 
 <body>
-  <div id='app'></div>
+  <div id='app'>%sapper.html%</div>
 
   <!-- Analytics -->
   <noscript>
