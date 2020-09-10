@@ -48,7 +48,7 @@
       margin: 20px auto 0;
       max-width: 1000px;
       border-radius: 10px;
-      backdrop-filter: blur(8px) brightness(65%);
+      backdrop-filter: blur(8px);
       width: 90%;
       display: flex;
       align-items: center;
@@ -57,6 +57,7 @@
       border: 1px solid #09253c;
       box-shadow: 0 10px 20px rgba(0,0,0,0.12);
       overflow: hidden;
+      background: #040b18b5;
 
       a.header {
         text-decoration: none;

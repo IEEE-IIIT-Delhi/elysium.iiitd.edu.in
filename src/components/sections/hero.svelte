@@ -74,7 +74,7 @@
 
     <a
       class='intro-video'
-      href=''
+      href='https://www.youtube.com/watch?v=2X9bkVTFd-g'
       target='_blank'
       rel='noopener'
     >
