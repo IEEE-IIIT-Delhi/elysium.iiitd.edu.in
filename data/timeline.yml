@@ -1,0 +1,143 @@
+- name: Alumni Talks (2013 batch)
+  description: Sanchit Bhaiya (Google, 2013 Batch)
+  club: 
+  date: 26/09/20
+  time: TBD
+
+- name: DSA Learning
+  description: A workshop on Data Structures by GeeksforGeeks
+  club: 
+  date: 02/10/20
+  time: TBD
+
+- name: PunWars
+  description: Tech Pun/meme making Events
+  club: Litsoc
+  date: 3/10/20
+  time: 5:30PM - 7:00 PM
+
+- name: Fortnightathon 2.0
+  description: 5 days coding contest
+  club: IEEE
+  date: 21/10/20 - 25/10/20
+  time: 5:30 PM - 12 AM
+
+- name: NASA JPL
+  description: A Seminar by IEEE Fellow, Senior Scientist NASA JPL, Goutam Chattopadhyay
+  club: 
+  date: 22/10/20
+  time: TBD
+
+- name: ECHO AR Workshop
+  description: Workshop on VR/AR by Echo AR
+  club: 
+  date: 24/10/20
+  time: TBD
+
+- name: Slash
+  description: The Online Cryptic hunt
+  club: IEEE
+  date: 24/10/20 - 25/10/20
+  time: 36 hours, will begin at 12 PM, Saturday
+
+- name: Prosort
+  description: Online programming contest
+  club: Foobar
+  date: 26/10/20
+  time: 5:30 PM -12:00 AM
+
+- name: The Lit Quiz
+  description: A Literary, anime and pop culture quiz
+  club: Litsoc
+  date: 26/10/2020
+  time: 5:30 PM - 8:30 PM
+
+- name: Tech quiz (Pre + Post Event)
+  description: A General Quiz
+  club: Trivialis
+  date: 27/10/20
+  time: 5:30 - 7:30
+
+- name: TechTalk
+  description: Tech based Group Discussion/ Debate
+  club: Litsoc
+  date: 27/10/20
+  time: 5:30 PM - 8:30 PM
+
+- name: WebHub
+  description: Web dev event
+  club: Byld
+  date: 27/10/20
+  time: 2 day event starting at 12AM
+
+- name: Machine Wars
+  description: ML based competitive events
+  club: IEEE
+  date: 27/10/20 - 1/11/20
+  time: 5:30 PM
+
+- name: Bioscience Event
+  description: A Datascience event
+  club: Biobytes
+  date: 28/10/20
+  time: Submission Deadline
+
+- name: Scavenger Hunt
+  description: An online scavenger hunt 
+  club: WIT
+  date: 28/10/20
+  time: Time Based Event TBD later
+
+- name: AlgoThon + ZPT 
+  description: Trivia based on fusion of cse and maths
+  club: Evariste
+  date: 29/10/20
+  time: 5:30 PM - 8:30 PM
+
+- name: Prosort Junior
+  description: Online Programming Contest for school students
+  club: Foobar
+  date: 29/10/20
+  time: 5:30 PM -12:00 AM
+
+- name: Lockdown coding Challenge
+  description: a unique style coding competition with knockouts
+  club: Foobar
+  date: 30/10/20
+  time: 5:30 PM -12:00 AM
+
+- name: Palette
+  description: Design based event
+  club: IEEE
+  date: 30/10/20
+  time: 30th Submission Deadline
+
+- name: Sadda Hack Hackathon
+  description: 36 hr Hackathon
+  club: IEEE
+  date: 30/10/20 - 1/11/20
+  time: 10AM(F)  - 10 AM(S) (48 hours)
+
+- name: Improv Poetry
+  description: Writing poetry on prompts given on the spot
+  club: Litsoc
+  date: 31/10/20
+  time: 5:30 PM - 8:00 PM
+
+- name: Project Showcase
+  description: Research/Engineering based project showcase
+  club: IEEE
+  date: 31/10/20 - 1/11/20
+  time: 12PM - 5PM (Both Days)
+
+- name: Captur
+  description: Online Theme Based Photograpny Contest
+  club: Tasveer
+  date: 
+  time: Submission Deadline
+
+- name: Filmatory
+  description: Video Editing Challenge
+  club: Tasveer
+  date: 
+  time: Submission Deadline

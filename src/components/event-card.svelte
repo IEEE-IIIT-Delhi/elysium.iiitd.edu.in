@@ -1,11 +1,11 @@
 <script>
   export let name
-  export let about
+  export let description
 </script>
 
 <div class="event">
   <h3>{name}</h3>
-  <p>{about}</p>
+  <p>{description}</p>
 </div>
 
 <style lang='scss'>

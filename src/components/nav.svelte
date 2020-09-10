@@ -23,7 +23,12 @@
     </ul>
 
     <!-- Mobile view -->
-    <button class="menu-btn" role="button" on:click={() => showMenu = !showMenu}>
+    <button
+      class="menu-btn"
+      role="button"
+      aria-label="Toggle menu"
+      on:click={() => showMenu = !showMenu}
+    >
       <Chevron strokeColor={'#4b6492'} open={showMenu}/>
     </button>
 

@@ -1,0 +1,25 @@
+on: push
+name: Publish to prod
+jobs:
+  FTP Deploy:
+    name: FTP Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.1.0
+      with:
+        fetch-depth: 2
+
+    - uses: actions/setup-node@v1
+
+    - run: npm install
+
+    - run: npm run prod
+
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      with:
+        ftp-server: sftp://www.iiitd.edu.in/mnt/Storage/www/elysium
+        ftp-username: mihir19061@iiitd.edu.in
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: __sapper__/export/
+        git-ftp-args: --insecure

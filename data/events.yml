@@ -1,29 +1,19 @@
 - name: Sadda Hack
-  about: |
-    Ipsum ea Lorem elit anim aute culpa sint aliqua tempor incididunt velit laborum amet.
-    Occaecat excepteur elit officia dolor ut ullamco minim.
+  description: The Big-Fat Hackathon. SaddaHack is the prime event of Elysium'20. With a total prize money of worth 1Lac and a platform to go head-to-head with the best competitors, It's going to be a fun-filled 48 hours with the most interesting problem-set to develop & solve.
 
 - name: Fortnightathon 2.0
-  about: |
-    Dolor labore quis eu incididunt voluptate quis aliqua sint laborum anim sunt ex irure aliquip.
-    Ex anim sint consectetur tempor aliqua ad do.
+  description: The flagship coding community of IEEE IIITD. This time with more incentives. With over 850+ regular coders, competing together, growing together, this event will let you flaunt and test your programming skills with the best people. Mentors who've qualified for ICPC & are GSoC scholars will nonethless help you learn for 5 days straight even if you can't win the big-fat prizes for the best.
 
 - name: Palette
-  about: |
-    Sit adipisicing proident adipisicing et sint do irure irure aute nostrud nostrud dolor officia velit.
-    Nostrud labore sunt cupidatat veniam sunt sint ullamco incididunt ea cillum adipisicing.
+  description: Design at Elysium'20. A pre-event in various categories of Design that will lead upto the fest. It is a graphic design competition spanning over 3 weeks with a couple of deadlines between them. With Prizes worth X, we bring to you the platform to present your designs and get judged by the best in this field. 
 
 - name: Slash
-  about: |
-    Aliqua excepteur consectetur dolore pariatur qui exercitation eu et in qui.
-    Et pariatur anim ea qui dolor commodo proident enim exercitation.
+  description: The Online Cryptic hunt
 
 - name: Machine Wars
-  about: |
+  description: |
     Aliqua exercitation ad magna velit mollit cillum Lorem Lorem.
     Exercitation occaecat laboris cillum velit et do in id mollit deserunt exercitation eu.
-    
+
 - name: Research Showcase
-  about: |
-    Aliqua exercitation ad magna velit mollit cillum Lorem Lorem.
-    Exercitation occaecat laboris cillum velit et do in id mollit deserunt exercitation eu.
+  description: A Combined Platform for our budding researchers & innovators to showcase their projects and get reviews and suggestions from world-class researchers/industrial developers and renowned industry mentors.
