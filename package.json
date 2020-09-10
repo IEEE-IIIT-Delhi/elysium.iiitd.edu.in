@@ -5,12 +5,17 @@
     "build": "sapper build --legacy",
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
+    "clean-after": "rimraf __sapper__/export/images/**/*.webp",
+    "optimize-images": "node scripts/optimize-images",
+    "prod": "run-s export clean-after optimize-images",
     "lint": "eslint . --ext .js,.svelte",
     "lint:fix": "eslint . --ext .js,.svelte --fix"
   },
   "dependencies": {
     "compression": "^1.7.4",
     "email-validator": "^2.0.4",
+    "imagemin": "^7.0.1",
+    "imagemin-webp": "^6.0.0",
     "polka": "next",
     "sirv": "^1.0.6"
   },
@@ -36,11 +41,13 @@
     "eslint-plugin-svelte3": "^2.7.3",
     "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
     "rollup": "^2.26.11",
     "rollup-plugin-svelte": "^6.0.1",
     "rollup-plugin-terser": "^7.0.2",
     "sapper": "^0.28.6",
     "svelte": "^3.24.1",
+    "svelte-image": "^0.2.7",
     "svelte-preprocess": "^4.2.1"
   }
 }

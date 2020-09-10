@@ -1,7 +1,9 @@
 <script>
   import sponsors from '../../../data/sponsors.yml'
+
   import Section from '../section.svelte'
   import LinkIcon from '../icons/link.svelte'
+  import Image from '../image.svelte'
 </script>
 
 <Section id={'sponsors'} heading={'Sponsors'} >
@@ -9,7 +11,7 @@
     {#each sponsors as sponsor}
       <a href='{sponsor.link}' target='_blank' rel='noopener'>
         <div class="image-wrapper">
-          <img src={sponsor.image} alt="{sponsor.name} logo"/>
+          <Image src={sponsor.image} alt="{sponsor.name} logo" />
         </div>
         <span>
           {sponsor.name}
@@ -45,7 +47,7 @@
       &:active {
         opacity: 1;
 
-        img {
+        :global(img) {
           filter: saturate(100%);
           transform: scale(1.1);
         }
@@ -62,18 +64,18 @@
       display: flex;
       align-items: center;
       margin-bottom: 20px;
-    }
 
-    img {
-      max-height: 75px;
-      max-width: 250px;
-      align-self: center;
-      border-radius: 10px;
-      transition: 0.1s all ease-in-out;
-      filter: saturate(0%);
+      :global(img) {
+        max-height: 75px;
+        max-width: 250px;
+        align-self: center;
+        border-radius: 10px;
+        transition: 0.1s all ease-in-out;
+        filter: saturate(0%);
 
-      @media only screen and (max-width: 800px) {
-        filter: saturate(75%);
+        @media only screen and (max-width: 800px) {
+          filter: saturate(75%);
+        }
       }
     }
   }

@@ -1,6 +1,8 @@
 <script>
   import contacts from '../../../data/contacts.yml'
+
   import Section from '../section.svelte'
+  import Image from '../image.svelte'
 </script>
 
 <Section id={'contact'} heading={'Contact'} >
@@ -10,7 +12,7 @@
   <div class="gallery">
     {#each contacts as contact}
       <div class="contact">
-        <img src={contact.image} alt="{contact.name} photo">
+        <Image src={contact.image} alt="{contact.name} photo" />
         <h3>{contact.name}</h3>
         <h4>{contact.post}</h4>
         <p><span>Phone:</span> <a href="tel:{contact.phone}">{contact.phone}</a></p>
@@ -53,7 +55,7 @@
       flex: 1;
       white-space: nowrap;
 
-      img {
+      :global(img) {
         height: 150px;
         border-radius: 10px;
         margin-bottom: 30px;
