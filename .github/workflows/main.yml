@@ -2,7 +2,7 @@ on: push
 name: Publish to prod
 jobs:
   FTP Deploy:
-    name: FTP Deploy
+    name: ftp_deploy
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2.1.0
@@ -15,7 +15,7 @@ jobs:
 
     - run: npm run prod
 
-    - name: FTP Deploy
+    - name: ftp_deploy
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         ftp-server: sftp://www.iiitd.edu.in/mnt/Storage/www/elysium
