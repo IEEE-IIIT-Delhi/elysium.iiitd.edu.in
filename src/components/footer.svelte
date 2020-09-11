@@ -40,7 +40,6 @@
     a {
       text-decoration: none;
       color: #038876;
-      font-weight: 600;
 
       &:hover {
         text-decoration: underline;

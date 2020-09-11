@@ -14,10 +14,11 @@
     flex: 1;
     margin: 2vh;
     padding: 2vh;
-    background: #040b18;
-    border-radius: 10px;
+    background: #0b182f;
+    border-radius: 5px;
     cursor: pointer;
     transition: 0.1s all ease-in-out;
+    position: relative;
 
     &:hover {
       background: #0f1c34;
@@ -26,7 +27,7 @@
 
     h3 {
       font-weight: 900;
-      color: #6283bf;
+      color: #8ba6d6;
       font-size: 1.3rem;
       letter-spacing: 1px;
       margin-bottom: 10px;
@@ -39,7 +40,7 @@
       color: #afb1b4;
       line-height: 1.7;
       letter-spacing: 0;
-      font-size: 1.05rem;
+      font-size: 1rem;
     }
   }
 </style>

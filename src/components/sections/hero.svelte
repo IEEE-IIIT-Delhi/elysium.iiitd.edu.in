@@ -66,9 +66,9 @@
       <h1>ELYSIU<span class='no-letter-spacing'>M</span></h1>
       <h2>IEEE-IIITD's TechWeek</h2>
       <h3>
-        <time datetime="2020-10-25">25<sup>th</sup> Oct</time>
+        <time datetime="2020-10-26">26<sup>th</sup> Oct</time>
         &mdash;
-        <time datetime="2020-10-31">31<sup>st</sup> Oct</time>
+        <time datetime="2020-11-01">1<sup>st</sup> Nov</time>
       </h3>
     </div>
 

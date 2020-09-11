@@ -7,7 +7,7 @@
 
 <Section id={'contact'} heading={'Contact'} >
   <p>Elysium is being hosted by the IEEE Chapter of <a href='https://iiitd.ac.in' target='_blank' rel='noopener'>Indraprastha Institute of Information Technology, Delhi</a>. Get to know more about us at <a href='https://ieee.iiitd.edu.in' target='_blank' rel='noopener'>ieee.iiitd.edu.in</a>.</p>
-  <p>The fastest way to reach us is by contacting any of the following admins on their Instagram DMs.</p>
+  <p>The fastest way to reach us is by contacting any of the following admins on their Instagram DMs. You can also <a href="https://instagram.com/elysium.iiitd" target="_blank" rel="noopener">follow us on Instagram</a>.</p>
 
   <div class="gallery">
     {#each contacts as contact}
