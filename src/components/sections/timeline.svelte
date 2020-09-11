@@ -1,7 +1,6 @@
 <script>
   import { fade } from 'svelte/transition'
   import timeline from '../../../data/timeline.yml'
-  import { wait } from '../../utils'
 
   import Section from '../section.svelte'
   import Chevron from '../icons/chevron.svelte'
@@ -15,7 +14,7 @@
   $: collapse = nodesToDisplay >= timeline.length
   $: buttonText = collapse ? 'Collapse' : 'Show more'
 
-  async function nodesToggleHander () {
+  function nodesToggleHander () {
     if (collapse) {
       nodesToDisplay = 5
     } else {

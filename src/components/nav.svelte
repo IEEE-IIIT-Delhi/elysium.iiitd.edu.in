@@ -135,7 +135,7 @@
             padding: 10px;
             text-align: center;
             margin-bottom: 10px;
-            background: #031b46d6;
+            background: #10213fad;
             margin: 0 15px 15px 15px;
             border-radius: 5px;
 
