@@ -1,7 +1,7 @@
 on: push
 name: Publish to prod
 jobs:
-  FTP Deploy:
+  FTP-Deploy:
     name: ftp_deploy
     runs-on: ubuntu-latest
     steps:
