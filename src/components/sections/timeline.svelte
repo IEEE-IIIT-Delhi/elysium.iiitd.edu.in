@@ -1,5 +1,6 @@
 <script>
   import { fade } from 'svelte/transition'
+  import { wait } from '../../utils';
   import timeline from '../../../data/timeline.yml'
 
   import Section from '../section.svelte'
@@ -7,6 +8,7 @@
 
   let nodesToDisplay = 5
   let nodeList
+  let timelineEl
   let collapse = false
   let buttonText = 'Show more'
 
@@ -14,16 +16,20 @@
   $: collapse = nodesToDisplay >= timeline.length
   $: buttonText = collapse ? 'Collapse' : 'Show more'
 
-  function nodesToggleHander () {
+  async function nodesToggleHander () {
     if (collapse) {
       nodesToDisplay = 5
+      await wait(200)
+      timelineEl.scrollIntoView({
+        behavior: 'smooth'
+      })
     } else {
       nodesToDisplay += 5
     }
   }
 </script>
 
-<Section id={'timeline'} heading={'Timeline'} >
+<Section id={'timeline'} heading={'Timeline'} bind:sectionElement={timelineEl}>
   <div class="timeline">
     {#each nodeList as node}
       <div class="node hover-highlight" transition:fade={{ duration: 200 }}>

@@ -17,9 +17,13 @@
 
     const targetHash = new URL(event.target.href).hash
     const targetEl = document.querySelector(targetHash)
-    targetEl.scrollIntoView({
+    const targetOffset = targetEl.getBoundingClientRect().y - 60
+
+    window.scrollBy({
+      top: targetOffset,
       behavior: 'smooth'
     })
+
     await wait(500)
 
     location.hash = targetHash

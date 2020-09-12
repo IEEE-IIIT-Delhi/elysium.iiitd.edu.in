@@ -1,9 +1,10 @@
 <script>
   export let heading
   export let id
+  export let sectionElement
 </script>
 
-<section {id}>
+<section {id} bind:this={sectionElement}>
   <div class="container">
     <h2>{heading}</h2>
 
