@@ -3,7 +3,7 @@
   export let description
 </script>
 
-<div class="event">
+<div class="event hover-highlight--low">
   <h3>{name}</h3>
   <p>{description}</p>
 </div>
@@ -16,12 +16,11 @@
     padding: 2vh;
     background: #0b182f;
     border-radius: 5px;
-    cursor: pointer;
+    // cursor: pointer;
     transition: 0.1s all ease-in-out;
     position: relative;
 
     &:hover {
-      background: #0f1c34;
       box-shadow: 0 20px 10px -10px #040b18;
     }
 

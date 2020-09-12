@@ -1,15 +1,33 @@
 <script>
   import { fade } from 'svelte/transition'
   import links from '../../data/links.yml'
+  import { wait } from '../utils'
 
   import Logo from './logo.svelte'
   import Chevron from './icons/chevron.svelte'
 
   let showMenu = false
+
+  async function linkClick (event, toggleMenu) {
+    event.preventDefault()
+
+    if (toggleMenu) {
+      showMenu = false
+    }
+
+    const targetHash = new URL(event.target.href).hash
+    const targetEl = document.querySelector(targetHash)
+    targetEl.scrollIntoView({
+      behavior: 'smooth'
+    })
+    await wait(500)
+
+    location.hash = targetHash
+  }
 </script>
 
 <header>
-  <nav>
+  <nav class='hover-highlight'>
     <a href="/" class='header'>
       <Logo size={'30px'} moveLogo={false}/>
       <span>ELYSIUM</span>
@@ -18,7 +36,12 @@
     <!-- Desktop view -->
     <ul class='main-list'>
       {#each links as link}
-        <li><a href="{link.href}">{link.name}</a></li>
+        <li>
+          <a
+            on:click={linkClick}
+            href="{link.href}"
+          >{link.name}</a>
+        </li>
       {/each}
     </ul>
 
@@ -35,7 +58,12 @@
     {#if showMenu}
       <ul class='hidden-list' transition:fade={{ duration: 200 }}>
         {#each links as link}
-          <li><a on:click={() => showMenu = false} href="{link.href}">{link.name}</a></li>
+          <li>
+            <a
+              on:click={event => linkClick(event, true)}
+              href="{link.href}"
+            >{link.name}</a>
+          </li>
         {/each}
       </ul>
     {/if}

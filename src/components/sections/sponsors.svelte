@@ -69,7 +69,6 @@
         max-height: 75px;
         max-width: 250px;
         align-self: center;
-        border-radius: 10px;
         transition: 0.1s all ease-in-out;
         filter: saturate(0%);
 

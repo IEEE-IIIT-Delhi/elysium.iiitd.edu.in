@@ -86,9 +86,9 @@
     <form on:submit={submitEmail}>
       <label for="updated-email-input">{labelText}</label>
       {#if !emailSubmitted}
-        <div class='input-wrapper' transition:fade={{ duration: 200 }}>
+        <div class='input-wrapper hover-highlight' transition:fade={{ duration: 200 }}>
           <input bind:value={email} type="email" id="updated-email-input" placeholder="Email ID" required>
-          <button>{buttonText}</button>
+          <button class='focus-highlight'>{buttonText}</button>
         </div>
       {/if}
     </form>
@@ -96,8 +96,6 @@
 </section>
 
 <style lang="scss">
-  @import "../../styles/common.scss";
-
   section {
     min-height: 100vh;
     display: flex;
@@ -210,6 +208,10 @@
           &:focus {
             border-color: #0d2044;
           }
+
+          &:required {
+            box-shadow: none;
+          }
         }
 
         button {
@@ -223,9 +225,7 @@
           outline: none;
           white-space: nowrap;
 
-          &:active,
-          &:hover,
-          &:focus {
+          &:active {
             color: #eee;
           }
         }

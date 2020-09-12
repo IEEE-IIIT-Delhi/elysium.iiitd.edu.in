@@ -1,3 +1,20 @@
 *.no-letter-spacing {
   letter-spacing: 0;
 }
+
+.hover-highlight,
+.focus-highlight,
+.hover-highlight--low,
+.focus-highlight--low {
+  transition: 0.1s filter ease-in-out;
+}
+
+.hover-highlight:hover,
+.focus-highlight:focus {
+  filter: brightness(120%) saturate(120%);
+}
+
+.hover-highlight--low:hover,
+.focus-highlight--low:focus {
+  filter: brightness(110%) saturate(110%);
+}

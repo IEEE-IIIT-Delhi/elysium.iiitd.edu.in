@@ -17,7 +17,8 @@
     "imagemin": "^7.0.1",
     "imagemin-webp": "^6.0.0",
     "polka": "next",
-    "sirv": "^1.0.6"
+    "sirv": "^1.0.6",
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",

@@ -26,7 +26,7 @@
 <Section id={'timeline'} heading={'Timeline'} >
   <div class="timeline">
     {#each nodeList as node}
-      <div class="node" transition:fade={{ duration: 200 }}>
+      <div class="node hover-highlight" transition:fade={{ duration: 200 }}>
         <div class="info">
           <time>{node.date || '-'}</time>
           <h3>{node.name}</h3>
@@ -46,7 +46,7 @@
     {/each}
 
     <div class="show-more">
-      <button on:click={nodesToggleHander}>
+      <button class='hover-highlight focus-highlight' on:click={nodesToggleHander}>
         {buttonText}
         <Chevron strokeColor='#8a909a' open={collapse}/>
       </button>
@@ -191,8 +191,7 @@
 
       &:hover,
       &:focus {
-        background: #0f1c34;
-        color: #eeeeeed6;
+        box-shadow: 0 5px 10px rgba(0,0,0,.2);
       }
     }
   }
