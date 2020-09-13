@@ -116,7 +116,6 @@
 
 <style lang="scss">
   svg {
-    max-width: 400px;
     overflow: visible;
     filter: drop-shadow(5px 14px 16px rgba(0,0,0,0.6));
 

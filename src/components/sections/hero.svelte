@@ -150,6 +150,10 @@
             width: 100%;
           }
         }
+
+        :global(svg) {
+          max-width: 270px;
+        }
       }
 
       a.intro-video {
