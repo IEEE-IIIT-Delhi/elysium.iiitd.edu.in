@@ -1,6 +1,6 @@
 <script>
   import { fade } from 'svelte/transition'
-  import { wait } from '../../utils';
+  import { wait } from '../../utils'
   import timeline from '../../../data/timeline.yml'
 
   import Section from '../section.svelte'
