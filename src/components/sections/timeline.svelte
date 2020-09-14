@@ -1,10 +1,16 @@
 <script>
-  import { fade } from 'svelte/transition'
+  import { slide } from 'svelte/transition'
   import { wait } from '../../utils'
-  import timeline from '../../../data/timeline.yml'
+  import rawTimeline from '../../../data/timeline.yml'
 
   import Section from '../section.svelte'
   import Chevron from '../icons/chevron.svelte'
+
+  // add 'expand' property to each node
+  const timeline = rawTimeline.map(node => {
+    node.expand = false
+    return node
+  })
 
   let nodesToDisplay = 5
   let nodeList
@@ -32,14 +38,26 @@
 <Section id={'timeline'} heading={'Timeline'} bind:sectionElement={timelineEl}>
   <div class="timeline">
     {#each nodeList as node}
-      <div class="node hover-highlight" transition:fade={{ duration: 200 }}>
+      <div class="node hover-highlight" transition:slide={{ duration: 200 }}>
         <div class="info">
           <time>{node.date || '-'}</time>
           <h3>{node.name}</h3>
-          {#if node.club}
-            <p class="club"><span>by </span>{node.club}</p>
+          {#if node.organiser}
+            <p class="club"><span>by </span>{node.organiser}</p>
           {/if}
           <p class="description">{node.description}</p>
+
+          <button
+            class='details hover-highlight focus-highlight'
+            on:click={() => node.expand = !node.expand}
+          >
+            Details
+            <Chevron open={node.expand}/>
+          </button>
+
+          {#if node.expand}
+            <p transition:slide={{ duration: 300 }} class="details">{node.details}</p>
+          {/if}
         </div>
 
         <div class="border">
@@ -73,6 +91,7 @@
     &:nth-child(odd) {
       .info {
         text-align: right;
+        align-items: flex-end;
       }
     }
 
@@ -81,6 +100,11 @@
     }
 
     .info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      transition: 0.2s all ease-in-out;
+
       time {
         font-size: 0.9rem;
         color: #038876;
@@ -112,6 +136,32 @@
         &.description {
           color: #a9acb2;
           margin-top: 10px;
+        }
+
+        &.details {
+          color: #a9acb2;
+          margin-top: 10px;
+          font-size: 14px;
+        }
+      }
+
+      button.details {
+        display: flex;
+        background: #062431;
+        border: none;
+        color: #12baa3;
+        padding: 5px 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        outline: none;
+
+        :global(svg) {
+          height: 20px;
+          margin: 0px -10px 0 0px;
+          stroke: #038473;
         }
       }
     }
@@ -154,6 +204,10 @@
       .line {
         background: #214961;
       }
+
+      .info {
+        transform: translateY(-5px);
+      }
     }
 
     @media only screen and (max-width: 800px) {
@@ -161,6 +215,7 @@
 
       .info {
         text-align: left !important;
+        align-items: start !important;
         padding: 0 20px;
         flex: 1;
       }

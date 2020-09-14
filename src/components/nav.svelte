@@ -1,5 +1,5 @@
 <script>
-  import { fade } from 'svelte/transition'
+  import { slide } from 'svelte/transition'
   import links from '../../data/links.yml'
   import { wait } from '../utils'
 
@@ -60,7 +60,7 @@
     </button>
 
     {#if showMenu}
-      <ul class='hidden-list' transition:fade={{ duration: 200 }}>
+      <ul class='hidden-list' transition:slide={{ duration: 200 }}>
         {#each links as link}
           <li>
             <a
