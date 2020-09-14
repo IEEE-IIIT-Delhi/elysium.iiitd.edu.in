@@ -11,7 +11,7 @@
   onMount(() => {
     const links = document.querySelectorAll('a')
     for (const link of links) {
-      link.addEventListener('click', event => {
+      link.addEventListener('click', () => {
         const linkText = normalizeForSaEvents(link.innerText)
         window.sa_event(`link_click_on_${linkText}`)
       })
