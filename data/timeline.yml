@@ -1,143 +1,167 @@
 - name: Alumni Talks (2013 batch)
   description: Sanchit Bhaiya (Google, 2013 Batch)
-  club: 
+  organiser:
   date: 26/09/20
   time: TBD
+  details: Ex consectetur occaecat sunt consectetur. Minim elit qui enim eiusmod. Nostrud qui nulla anim non ullamco ad Lorem cupidatat velit cupidatat. Dolore magna cupidatat excepteur sunt minim enim nisi consequat elit sunt ipsum sit deserunt. Incididunt cillum fugiat ut velit sint esse cupidatat tempor. Eiusmod ex labore fugiat et elit reprehenderit deserunt irure commodo qui ea Lorem fugiat.
 
 - name: DSA Learning
   description: A workshop on Data Structures by GeeksforGeeks
-  club: 
+  organiser:
   date: 02/10/20
   time: TBD
+  details: Ut officia laborum laboris anim. Ipsum aute amet aliquip ex dolore dolore minim excepteur. Eiusmod deserunt ea sit tempor deserunt pariatur mollit nisi commodo do cillum.
 
 - name: PunWars
   description: Tech Pun/meme making Events
-  club: Litsoc
+  organiser: Litsoc
   date: 3/10/20
   time: 5:30PM - 7:00 PM
+  details: Velit consequat velit dolore laborum excepteur non excepteur aute laboris. Aliqua culpa proident minim aliquip laboris velit. Nostrud incididunt sint proident nulla cupidatat non ad anim ex ea irure adipisicing. Irure commodo magna veniam nulla ex laborum tempor mollit officia mollit voluptate in. Non consequat nisi officia minim deserunt ex adipisicing.
 
 - name: Fortnightathon 2.0
   description: 5 days coding contest
-  club: IEEE
+  organiser: IEEE
   date: 21/10/20 - 25/10/20
   time: 5:30 PM - 12 AM
+  details: Eiusmod in deserunt deserunt quis anim ullamco. Voluptate ut pariatur adipisicing cupidatat consectetur nulla. Sunt veniam mollit anim sunt deserunt reprehenderit nulla laboris labore deserunt ut. Qui reprehenderit in in aute laborum aliqua.
 
 - name: NASA JPL
   description: A Seminar by IEEE Fellow, Senior Scientist NASA JPL, Goutam Chattopadhyay
-  club: 
+  organiser:
   date: 22/10/20
   time: TBD
+  details: Irure nulla commodo consequat amet est officia cupidatat. Proident sit pariatur ullamco labore aliquip irure voluptate sit do velit cillum officia. Magna reprehenderit laboris aliquip officia enim qui duis eu anim cillum nisi quis.
 
 - name: ECHO AR Workshop
   description: Workshop on VR/AR by Echo AR
-  club: 
+  organiser:
   date: 24/10/20
   time: TBD
+  details: Aliquip pariatur eiusmod laboris officia et. Esse exercitation voluptate est voluptate quis consectetur cillum. Cillum adipisicing proident occaecat labore officia do duis duis adipisicing aliquip deserunt. Id ea ea sunt cupidatat deserunt. Magna officia dolor aliquip dolore ipsum fugiat commodo.
 
 - name: Slash
   description: The Online Cryptic hunt
-  club: IEEE
+  organiser: IEEE
   date: 24/10/20 - 25/10/20
   time: 36 hours, will begin at 12 PM, Saturday
+  details: In pariatur officia veniam in excepteur eu dolore est culpa non cillum duis pariatur sint. Sit cupidatat labore et minim culpa occaecat duis ea. Excepteur consectetur mollit cillum cillum laboris incididunt cillum ea quis excepteur ullamco pariatur id. Ad et eu laboris elit veniam ullamco est id. Irure deserunt aute non ipsum proident. Exercitation nostrud cupidatat voluptate nostrud exercitation occaecat.
 
 - name: Prosort
   description: Online programming contest
-  club: Foobar
+  organiser: Foobar
   date: 26/10/20
   time: 5:30 PM -12:00 AM
+  details: Nisi tempor magna anim nostrud excepteur tempor nulla pariatur aliqua anim adipisicing anim. Enim incididunt ipsum eu incididunt. Culpa consequat in ex sit ex id aliquip irure. Tempor aliquip ipsum do nostrud veniam consectetur sint ex.
 
 - name: The Lit Quiz
   description: A Literary, anime and pop culture quiz
-  club: Litsoc
+  organiser: Litsoc
   date: 26/10/2020
   time: 5:30 PM - 8:30 PM
+  details: Commodo cillum exercitation ad sunt anim cillum exercitation. Labore irure consectetur occaecat elit. Commodo minim cillum consectetur labore enim ad nisi aute. Consequat Lorem est ullamco Lorem anim dolore irure duis consectetur anim ad esse. Occaecat id ea adipisicing non proident laborum adipisicing ad commodo sunt in.
 
 - name: Tech quiz (Pre + Post Event)
   description: A General Quiz
-  club: Trivialis
+  organiser: Trivialis
   date: 27/10/20
   time: 5:30 - 7:30
+  details: Anim culpa labore irure tempor amet nostrud veniam tempor nisi. Culpa ad in incididunt aliquip deserunt ut eu culpa magna magna. Labore non enim laborum labore est laborum amet sunt deserunt. Elit ullamco culpa pariatur ad incididunt velit ex minim non incididunt sint reprehenderit. Fugiat labore deserunt occaecat commodo aliquip sunt quis dolor sunt. Do non occaecat cillum aliquip reprehenderit velit.
 
 - name: TechTalk
   description: Tech based Group Discussion/ Debate
-  club: Litsoc
+  organiser: Litsoc
   date: 27/10/20
   time: 5:30 PM - 8:30 PM
+  details: Fugiat adipisicing ex sint non irure cillum dolor tempor ea exercitation fugiat duis incididunt. Laboris nulla id do id irure ipsum nostrud reprehenderit qui consectetur excepteur esse pariatur exercitation. Adipisicing ipsum nulla consequat fugiat. Commodo tempor est ea sunt excepteur est.
 
 - name: WebHub
   description: Web dev event
-  club: Byld
+  organiser: Byld
   date: 27/10/20
   time: 2 day event starting at 12AM
+  details: Ullamco velit eu ea ad id velit. Officia et eu culpa commodo exercitation aute minim. Minim qui magna ea consectetur laborum aliqua Lorem. Minim sit culpa exercitation duis sunt fugiat pariatur culpa. Quis aliquip laborum ipsum in dolore dolore. Laboris reprehenderit nostrud anim occaecat dolore amet cillum aliquip ea proident ullamco quis consequat.
 
 - name: Machine Wars
   description: ML based competitive events
-  club: IEEE
+  organiser: IEEE
   date: 27/10/20 - 1/11/20
   time: 5:30 PM
+  details: Officia laboris aute est Lorem. Occaecat duis ullamco elit amet Lorem deserunt proident tempor et veniam aliquip. Duis Lorem incididunt quis minim duis.
 
 - name: Bioscience Event
   description: A Datascience event
-  club: Biobytes
+  organiser: Biobytes
   date: 28/10/20
   time: Submission Deadline
+  details: Eiusmod ad veniam deserunt ipsum sit eiusmod non nisi irure. Adipisicing amet ea exercitation ipsum ea. Ea cillum proident consequat ipsum. Qui eu ipsum consequat irure ad dolor culpa magna nostrud officia voluptate. Exercitation ea veniam aliquip excepteur velit ullamco deserunt pariatur magna. Duis veniam elit id enim. Deserunt pariatur culpa culpa aliquip tempor voluptate commodo tempor tempor dolor anim.
 
 - name: Scavenger Hunt
-  description: An online scavenger hunt 
-  club: WIT
+  description: An online scavenger hunt
+  organiser: WIT
   date: 28/10/20
   time: Time Based Event TBD later
+  details: Duis cupidatat ipsum voluptate ea ullamco voluptate adipisicing officia eiusmod ut culpa pariatur ea. Nulla excepteur id consequat ullamco duis proident laborum anim deserunt Lorem consequat duis. Dolore eiusmod quis deserunt cillum veniam cupidatat. Duis aliqua reprehenderit id elit nisi duis reprehenderit esse quis aute. Anim anim cillum dolor id ea officia amet tempor. Deserunt irure voluptate nulla aliquip pariatur irure sit sint cupidatat ea. In adipisicing laboris tempor non ut.
 
-- name: AlgoThon + ZPT 
+- name: AlgoThon + ZPT
   description: Trivia based on fusion of cse and maths
-  club: Evariste
+  organiser: Evariste
   date: 29/10/20
   time: 5:30 PM - 8:30 PM
+  details: Veniam excepteur laborum eiusmod nisi ipsum veniam cillum est. Veniam cillum excepteur elit excepteur proident id duis sit incididunt veniam quis enim. Commodo deserunt in laborum nulla cupidatat ad. Voluptate amet nulla sunt sunt Lorem dolor aute ea ullamco nisi reprehenderit aliquip voluptate esse. Ea Lorem aute sunt commodo culpa aliqua dolor minim id eiusmod laboris anim pariatur labore. Sit elit magna ullamco et nisi enim consectetur eiusmod. Ipsum non incididunt exercitation elit proident eu aliqua deserunt ipsum elit duis.
 
 - name: Prosort Junior
   description: Online Programming Contest for school students
-  club: Foobar
+  organiser: Foobar
   date: 29/10/20
   time: 5:30 PM -12:00 AM
+  details: Tempor amet magna sit veniam pariatur laboris. Amet est ut dolor et ex deserunt voluptate nostrud quis irure occaecat qui Lorem. Proident quis duis minim ipsum cupidatat deserunt ea nostrud nulla anim.
 
 - name: Lockdown coding Challenge
   description: a unique style coding competition with knockouts
-  club: Foobar
+  organiser: Foobar
   date: 30/10/20
   time: 5:30 PM -12:00 AM
+  details: Irure qui anim commodo ut amet esse qui eu et. Cupidatat enim commodo mollit aliqua. Eu occaecat labore tempor ea fugiat dolor consectetur. Cillum cillum sint ad dolor. Cillum mollit ad ea ex commodo laborum. Velit est cupidatat amet in exercitation eu occaecat consequat proident.
 
 - name: Palette
   description: Design based event
-  club: IEEE
+  organiser: IEEE
   date: 30/10/20
   time: 30th Submission Deadline
+  details: Exercitation cupidatat ea ad nisi duis. Aliqua cillum irure mollit deserunt exercitation et ipsum nulla irure minim. Fugiat mollit consequat fugiat culpa nisi pariatur.
 
 - name: Sadda Hack Hackathon
   description: 36 hr Hackathon
-  club: IEEE
+  organiser: IEEE
   date: 30/10/20 - 1/11/20
   time: 10AM(F)  - 10 AM(S) (48 hours)
+  details: Elit dolore consectetur consequat proident excepteur officia amet reprehenderit laborum. Voluptate nulla laboris ex do in occaecat est do incididunt officia mollit in incididunt. Veniam qui esse occaecat do velit nisi culpa ea velit quis est. Nostrud proident mollit proident proident occaecat cillum ea fugiat. Adipisicing ad labore non in commodo qui laboris voluptate nostrud proident. Quis aliqua do qui fugiat. Nulla mollit est do officia occaecat velit incididunt in sunt occaecat laborum adipisicing occaecat.
 
 - name: Improv Poetry
   description: Writing poetry on prompts given on the spot
-  club: Litsoc
+  organiser: Litsoc
   date: 31/10/20
   time: 5:30 PM - 8:00 PM
+  details: Proident aliqua nulla nostrud reprehenderit enim et. Commodo et adipisicing deserunt exercitation. Anim ut duis officia nostrud dolor fugiat proident eiusmod esse elit magna occaecat aliqua. Cupidatat incididunt duis commodo in enim nostrud nostrud cillum ut duis anim in enim proident. Consequat aute nisi non voluptate aliqua veniam mollit consequat. Deserunt laborum duis mollit consectetur eu labore ut ad ipsum Lorem nisi.
 
 - name: Project Showcase
   description: Research/Engineering based project showcase
-  club: IEEE
+  organiser: IEEE
   date: 31/10/20 - 1/11/20
   time: 12PM - 5PM (Both Days)
+  details: Id mollit tempor incididunt exercitation cillum voluptate ex ullamco non ipsum pariatur adipisicing sunt proident. Nulla eu dolore ex id quis aliqua veniam in. Qui do mollit tempor do tempor officia incididunt veniam. Lorem et excepteur culpa laboris dolore amet ipsum proident est ea laboris. Est adipisicing quis labore cillum laborum exercitation et quis ex aute ullamco qui ut.
 
 - name: Captur
   description: Online Theme Based Photograpny Contest
-  club: Tasveer
-  date: 
+  organiser: Tasveer
+  date:
   time: Submission Deadline
+  details: Id labore ex culpa anim id non. Voluptate dolor qui irure fugiat. Deserunt et commodo sit ad ex do sit Lorem velit dolor fugiat. Ut consectetur adipisicing enim occaecat reprehenderit. Do velit occaecat eu velit voluptate. Nisi qui in do pariatur occaecat commodo exercitation cillum in incididunt. Adipisicing enim pariatur consectetur excepteur reprehenderit in amet enim duis reprehenderit dolore fugiat.
 
 - name: Filmatory
   description: Video Editing Challenge
-  club: Tasveer
-  date: 
+  organiser: Tasveer
+  date:
   time: Submission Deadline
+  details: Sint do voluptate eiusmod culpa ea occaecat aute. Eu do incididunt Lorem minim ut est sit enim nulla culpa minim sunt. Nisi mollit magna do sunt sunt in non non mollit aliquip sint deserunt ea adipisicing. Et irure voluptate velit irure cupidatat culpa ipsum aute labore voluptate nulla exercitation do. Ea nulla cupidatat adipisicing irure sit quis. Ex veniam non deserunt eu magna eu nostrud proident. Et pariatur ullamco est reprehenderit irure dolore.
