@@ -94,23 +94,22 @@
   viewBox="0 0 305 271"
 >
   <g bind:this={bluePortion} id="blue">
-    <polygon class="cls-1" points="124.05 179.62 96.59 132.67 46.67 221.54 73.29 269.33 124.05 179.62"/>
-    <polygon class="cls-2" points="201.67 134.33 175.83 87.67 279.17 88.5 305 134.33 201.67 134.33"/>
-    <polygon class="cls-3" points="201.67 134.33 176.05 180.18 277.55 179.31 305 134.33 201.67 134.33"/>
-    <polygon class="cls-2" points="75.01 1 126.68 1 176.68 89.33 124.17 89.33 75.01 1"/>
-    <polygon class="cls-6" points="73.5 269.33 126.14 269.33 176 181 124.44 179.33 73.5 269.33"/>
-    <polygon class="cls-8" points="47.5 47.67 75 1 124.17 88.5 96.67 136 47.5 47.67"/>
+    <polyline class="cls-1" points="127.88 0 75.86 0 152.94 132.35 178.7 87.74"/>
+    <polyline class="cls-2" points="280.09 87.88 303.87 130.74 152.95 132.35 178.7 87.74"/>
+    <polyline class="cls-3" points="179.83 180.02 276.87 179.74 303.87 130.74 152.95 132.35 75.86 0 52.01 44.87 99.51 132.56 152.95 132.35"/>
+    <polyline class="cls-4" points="71.87 267.74 152.95 132.35 179.83 180.02 127.87 267.74"/>
+    <polyline class="cls-5" points="71.87 267.74 48.74 220.47 99.51 132.56 152.95 132.35"/>
   </g>
   <g bind:this={greenPortion} id="green">
-    <polygon class="cls-4" points="151.19 134.33 204.19 134.33 254.17 223.5 200 223.5 151.19 134.33"/>
-    <polygon class="cls-5" points="252.5 45.17 200.83 43.5 151.68 134.33 204.17 134.33 252.5 45.17"/>
-    <polygon class="cls-7" points="200.83 44.33 175 0.17 124.17 88.5 151.67 135.17 200.83 44.33"/>
-    <polygon class="cls-9" points="50.09 136 24.14 88.91 124.26 88.5 152.7 135.82 50.09 136"/>
-    <polygon class="cls-10" points="173.75 271 199.31 223.5 253.75 223.5 225 271 173.75 271"/>
-    <polygon class="cls-11" points="252.5 45.17 225 0 175 0.17 200.83 44.33 252.5 45.17"/>
-    <polygon class="cls-12" points="24.17 88.92 0 136 23.33 181.83 50.67 136.15 24.17 88.92"/>
-    <polygon class="cls-13" points="49.55 134.28 23.6 181.38 123.72 181.78 152.16 134.46 49.55 134.28"/>
-    <polygon class="cls-14" points="123.11 181.7 151.67 135.17 200.62 223.37 173.95 270.87 123.11 181.7"/>
+    <line class="cls-10" x1="177.67" y1="2.27" x2="202.95" y2="45.55"/>
+    <polyline class="cls-7" points="254.46 220.3 202.95 220.3 152.37 132.43 203.89 132.43 254.46 44.55 202.95 44.55 152.37 132.42 203.89 132.42 254.52 220.29"/>
+    <polyline class="cls-11" points="124.53 179.54 175.11 267.41 202.95 220.3 152.37 132.43 202.95 44.55 177.67 1.27 125.48 86.26 152.37 132.43"/>
+    <polyline class="cls-12" points="50.85 132.42 152.37 132.43 124.53 179.54 23.01 179.53"/>
+    <polyline class="cls-9" points="50.85 132.42 23.95 86.25 125.48 86.26 152.37 132.43"/>
+    <polygon class="cls-13" points="23 179.53 50.84 132.42 23.94 86.25 0 132.89 23 179.53"/>
+    <polyline class="cls-14" points="175.09 267.41 202.93 220.3 254.45 220.3"/>
+    <polyline class="cls-14" points="175.16 267.4 223.48 267.26 254.52 220.29 202.93 220.3"/>
+    <polygon class="cls-13" points="177.67 1.27 202.95 44.55 254.46 44.55 230.31 1.27 177.67 1.27"/>
   </g>
 </svg>
 
@@ -137,68 +136,65 @@
     }
 
     .cls-1 {
-      fill: #2d69e9;
-      stroke: #2d69e9;
-      stroke-width: 0.35px;
-    }
-
-    .cls-1,
-    .cls-6 {
-      stroke-miterlimit: 10;
+      fill:#147df4;
     }
 
     .cls-2 {
-      fill: #25abf4;
+      fill:#008cff;
     }
 
     .cls-3 {
-      fill: #006deb;
+      fill:#1e5ed2;
     }
 
     .cls-4 {
-      fill: #0bf9c0;
+      fill:#0580fd;
     }
 
     .cls-5 {
-      fill: #00ffc7;
+      fill:#2d69e7;
     }
 
     .cls-6 {
-      fill: #0082ff;
-      stroke: #0082ff;
-      stroke-width: 0.3px;
+      fill:lime;
+      stroke:#000;
+      stroke-miterlimit:10;
     }
 
     .cls-7 {
-      fill: #00f8b9;
+      fill:#72f3c2;
     }
 
     .cls-8 {
-      fill: #1e5ed4;
+      fill:#66e6b7;
     }
 
     .cls-9 {
-      fill: #00ffc1;
+      fill:#74f9c4;
     }
 
     .cls-10 {
-      fill: #22cfa6;
+      fill:none;
     }
 
     .cls-11 {
-      fill: #22eabc;
+      fill:#60e7bb;
     }
 
     .cls-12 {
-      fill: #22c4a6;
+      fill:#61d3b4;
     }
 
     .cls-13 {
-      fill: #00d8b3;
+      fill:#5dc0a6;
     }
 
     .cls-14 {
-      fill: #00e3b8;
+      fill:#4ed5ac;
+    }
+
+    .cls-15 {
+      fill:#62caa7;
     }
   }
 </style>

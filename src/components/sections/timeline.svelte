@@ -19,7 +19,7 @@
   async function nodesToggleHander () {
     if (collapse) {
       nodesToDisplay = 5
-      await wait(200)
+      await wait(400)
       timelineEl.scrollIntoView({
         behavior: 'smooth'
       })
@@ -142,6 +142,7 @@
         flex: 1;
         width: 5px;
         background: #062431;
+        border-radius: 10px;
       }
     }
 
