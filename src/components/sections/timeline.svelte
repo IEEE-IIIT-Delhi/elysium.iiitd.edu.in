@@ -38,7 +38,7 @@
 <Section id={'timeline'} heading={'Timeline'} bind:sectionElement={timelineEl}>
   <div class="timeline">
     {#each nodeList as node}
-      <div class="node hover-highlight" transition:slide={{ duration: 200 }}>
+      <div class="node hover-highlight safari-overflow-fix" transition:slide={{ duration: 200 }}>
         <div class="info">
           <time>{node.date || '-'}</time>
           <h3>{node.name}</h3>
@@ -56,7 +56,7 @@
           </button>
 
           {#if node.expand}
-            <p transition:slide={{ duration: 300 }} class="details">{node.details}</p>
+            <p transition:slide={{ duration: 300 }} class="details safari-overflow-fix">{node.details}</p>
           {/if}
         </div>
 
@@ -81,6 +81,7 @@
 <style lang="scss">
   .timeline {
     padding-top: 20px;
+    overflow: hidden;
   }
 
   .node {
@@ -104,6 +105,7 @@
       flex-direction: column;
       align-items: flex-start;
       transition: 0.2s all ease-in-out;
+      overflow: hidden;
 
       time {
         font-size: 0.9rem;
@@ -157,6 +159,7 @@
         justify-content: center;
         cursor: pointer;
         outline: none;
+        font-family: Inter;
 
         :global(svg) {
           height: 20px;
@@ -206,7 +209,7 @@
       }
 
       .info {
-        transform: translateY(-5px);
+        transform: translateY(-2.5px);
       }
     }
 
@@ -216,6 +219,7 @@
       .info {
         text-align: left !important;
         align-items: start !important;
+        transform: none !important;
         padding: 0 20px;
         flex: 1;
       }

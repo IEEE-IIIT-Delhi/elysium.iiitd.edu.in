@@ -1,4 +1,4 @@
-*.no-letter-spacing {
+.no-letter-spacing {
   letter-spacing: 0;
 }
 
@@ -17,4 +17,10 @@
 .hover-highlight--low:hover,
 .focus-highlight--low:focus {
   filter: brightness(110%) saturate(110%);
+}
+
+.safari-overflow-fix {
+  mask-image: -webkit-radial-gradient(white, black);
+  transform: perspective();
+  backface-visibility: hidden;
 }
