@@ -17,7 +17,7 @@
     background: #0b182f;
     border-radius: 5px;
     // cursor: pointer;
-    transition: 0.1s all ease-in-out;
+    transition: 0.3s all ease-in-out;
     position: relative;
 
     &:hover {

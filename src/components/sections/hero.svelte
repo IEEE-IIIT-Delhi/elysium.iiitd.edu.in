@@ -1,6 +1,6 @@
 <script>
   import { onMount } from 'svelte'
-  import { fade } from 'svelte/transition'
+  import { slide } from 'svelte/transition'
   import { validate } from 'email-validator'
   import { wait } from '../../utils'
 
@@ -86,7 +86,7 @@
     <form on:submit={submitEmail}>
       <label for="updated-email-input">{labelText}</label>
       {#if !emailSubmitted}
-        <div class='input-wrapper hover-highlight' transition:fade={{ duration: 200 }}>
+        <div class='input-wrapper hover-highlight' transition:slide={{ duration: 500 }}>
           <input bind:value={email} type="email" id="updated-email-input" placeholder="Email ID" required>
           <button class='focus-highlight'>{buttonText}</button>
         </div>

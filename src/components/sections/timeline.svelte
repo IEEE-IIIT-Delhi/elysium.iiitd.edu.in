@@ -149,8 +149,8 @@
 
       button.details {
         display: flex;
-        background: #062431;
-        border: none;
+        background: none;
+        border: 1px solid #062431;
         color: #12baa3;
         padding: 5px 10px;
         margin-top: 10px;
@@ -160,11 +160,17 @@
         cursor: pointer;
         outline: none;
         font-family: Inter;
+        transition: 0.2s all ease-in-out;
 
         :global(svg) {
           height: 20px;
           margin: 0px -10px 0 0px;
           stroke: #038473;
+        }
+
+        &:hover,
+        &:focus {
+          background: #062431;
         }
       }
     }

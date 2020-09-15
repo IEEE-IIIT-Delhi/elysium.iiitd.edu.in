@@ -31,7 +31,7 @@
 </script>
 
 <header>
-  <nav class='hover-highlight'>
+  <nav>
     <a href="/" class='header'>
       <Logo size={'30px'} moveLogo={false}/>
       <span>ELYSIUM</span>

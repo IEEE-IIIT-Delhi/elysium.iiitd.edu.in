@@ -2,21 +2,21 @@
   link: https://www.shubhitech.com
   image: /images/sponsors/shubhi-tech.png
 
-- name: Repl.It
-  link: https://repl.it
-  image: /images/sponsors/repl-it.png
-
 - name: EchoAR
   link: https://www.echoar.xyz
   image: /images/sponsors/echo-ar.png
+
+- name: Repl.It
+  link: https://repl.it
+  image: /images/sponsors/repl-it.png
 
 - name: Balsamiq
   link: https://balsamiq.com/
   image: /images/sponsors/balsamiq.png
 
 # - name: Nestlé
-#  link: https://nestle.in/
-#  image: /images/sponsors/nestle.png
+#   link: https://nestle.in/
+#   image: /images/sponsors/nestle.png
 
 - name: Sticker Mule
   link: https://www.stickermule.com
@@ -25,6 +25,14 @@
 - name: Wolfram
   link: https://wolfram.com/
   image: /images/sponsors/wolfram.png
+
+- name: Axure
+  link: https://www.axure.com/
+  image: /images/sponsors/axure.png
+
+- name: Interview Cake
+  link: https://www.interviewcake.com/
+  image: /images/sponsors/interview-cake.png
 
 - name: Bugsee
   link: https://www.bugsee.com/

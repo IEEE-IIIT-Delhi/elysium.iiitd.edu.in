@@ -70,7 +70,7 @@
         max-width: 250px;
         align-self: center;
         transition: 0.1s all ease-in-out;
-        filter: saturate(0%);
+        filter: saturate(0%) brightness(2);
 
         @media only screen and (max-width: 800px) {
           filter: saturate(75%);
