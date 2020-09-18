@@ -26,7 +26,7 @@
   .gallery {
     display: flex;
     flex-wrap: wrap;
-    margin: 2vh -2.5vh;
+    margin: 2vh -4vh;
 
     a {
       margin: 4vh;
@@ -56,7 +56,8 @@
       span {
         display: flex;
         align-items: center;
-        white-space: nowrap;
+        text-align: center;
+        line-height: 1.5;
       }
     }
 
@@ -67,8 +68,8 @@
       margin-bottom: 20px;
 
       :global(img) {
-        max-height: 75px;
-        max-width: 250px;
+        max-height: #{'min(7.5vmax, 75px)'};
+        max-width: 15vmax;
         align-self: center;
         transition: 0.1s all ease-in-out;
         filter: saturate(0%) brightness(2);

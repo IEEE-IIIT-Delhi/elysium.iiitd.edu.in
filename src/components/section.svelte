@@ -25,6 +25,7 @@
       width: 85%;
       display: flex;
       flex-direction: column;
+      overflow: hidden;
     }
   }
 

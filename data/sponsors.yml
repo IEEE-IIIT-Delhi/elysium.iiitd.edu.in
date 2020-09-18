@@ -26,13 +26,13 @@
   link: https://wolfram.com/
   image: /images/sponsors/wolfram.png
 
-- name: Axure
-  link: https://www.axure.com/
-  image: /images/sponsors/axure.png
-
 - name: Interview Cake
   link: https://www.interviewcake.com/
   image: /images/sponsors/interview-cake.png
+
+- name: Axure
+  link: https://www.axure.com/
+  image: /images/sponsors/axure.png
 
 - name: Bugsee
   link: https://www.bugsee.com/
