@@ -11,13 +11,13 @@
 
   <div class="gallery">
     {#each contacts as contact}
-      <div class="contact">
+      <div class="contact hover-highlight">
         <Image src={contact.image} alt="{contact.name} photo" />
         <h3>{contact.name}</h3>
         <h4>{contact.post}</h4>
-        <p><span>Phone:</span> <a href="tel:{contact.phone}">{contact.phone}</a></p>
-        <p><span>Email:</span> <a href="mailto:{contact.email}">{contact.email}</a></p>
-        <p><span>Instagram:</span> <a href="https://instagram.com/{contact.instagram}" target='_blank' rel='noopener'>{contact.instagram}</a></p>
+        <p><strong>Phone:</strong> <a href="tel:{contact.phone}">{contact.phone}</a></p>
+        <p><strong>Email:</strong> <a href="mailto:{contact.email}">{contact.email}</a></p>
+        <p><strong>Instagram:</strong> <a href="https://instagram.com/{contact.instagram}" target='_blank' rel='noopener'>{contact.instagram}</a></p>
       </div>
     {/each}
   </div>
@@ -79,8 +79,7 @@
       p {
         margin-top: 5px;
 
-        span {
-          font-weight: 600;
+        strong {
           color: #6b717d;
         }
       }

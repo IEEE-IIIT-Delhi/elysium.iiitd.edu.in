@@ -29,7 +29,7 @@
     margin: 2vh -2.5vh;
 
     a {
-      margin: 5vh 5vh;
+      margin: 4vh;
       flex: 1;
       display: flex;
       flex-direction: column;
@@ -56,6 +56,7 @@
       span {
         display: flex;
         align-items: center;
+        white-space: nowrap;
       }
     }
 

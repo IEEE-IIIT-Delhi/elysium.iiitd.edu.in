@@ -199,16 +199,13 @@
       }
 
       @media only screen and (max-width: 800px) {
-        button.menu-btn {
+        button.menu-btn,
+        ul.hidden-list {
           display: flex;
         }
 
         ul.main-list {
           display: none;
-        }
-
-        ul.hidden-list {
-          display: flex;
         }
       }
     }

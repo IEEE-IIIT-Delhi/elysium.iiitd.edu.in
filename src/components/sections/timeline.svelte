@@ -1,4 +1,5 @@
 <script>
+  import { Remarkable } from 'remarkable'
   import { slide } from 'svelte/transition'
   import { wait } from '../../utils'
   import rawTimeline from '../../../data/timeline.yml'
@@ -17,6 +18,8 @@
   let timelineEl
   let collapse = false
   let buttonText = 'Show more'
+
+  const md = new Remarkable()
 
   $: nodeList = timeline.slice(0, nodesToDisplay)
   $: collapse = nodesToDisplay >= timeline.length
@@ -56,7 +59,10 @@
           </button>
 
           {#if node.expand}
-            <p transition:slide={{ duration: 300 }} class="details safari-overflow-fix">{node.details}</p>
+            <div class="details safari-overflow-fix" transition:slide={{ duration: 300 }}>
+              <p><strong>Time: </strong>{node.time}</p>
+              {@html md.render(node.details)}
+            </div>
           {/if}
         </div>
 
@@ -114,7 +120,7 @@
       }
 
       h3 {
-        margin: 10px 0 5px;
+        margin-top: 10px;
         font-size: 1.2rem;
         color: #8ba6d6;
         font-weight: 600;
@@ -128,7 +134,7 @@
 
         &.club {
           color: #8ba6d080;
-          margin: 5px 0;
+          margin-top: 5px;
 
           span {
             font-style: italic;
@@ -139,11 +145,21 @@
           color: #a9acb2;
           margin-top: 10px;
         }
+      }
 
-        &.details {
+      div.details {
+        :global(*) {
+          font-size: 0.9rem;
+          line-height: 1.7;
+          letter-spacing: 0;
           color: #a9acb2;
           margin-top: 10px;
           font-size: 14px;
+        }
+
+        :global(li) {
+          list-style: circle outside;
+          margin-left: 20px;
         }
       }
 
@@ -226,7 +242,7 @@
         text-align: left !important;
         align-items: start !important;
         transform: none !important;
-        padding: 0 20px;
+        padding: 0 0 0 20px;
         flex: 1;
       }
 
