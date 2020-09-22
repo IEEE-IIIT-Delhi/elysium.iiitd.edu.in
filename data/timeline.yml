@@ -1,5 +1,5 @@
 - name: Alumni Talks (2013 batch)
-  description: Sanchit Bhaiya (Google, 2013 Batch)
+  description: Sanchit G. (Google, 2013 Batch)
   organiser:
   date: 26/09/20
   time: TBD
@@ -17,14 +17,14 @@
   time: TBD
   details: |
     Ut officia laborum laboris anim. Ipsum aute amet aliquip ex dolore dolore minim excepteur. Eiusmod deserunt ea sit tempor deserunt pariatur mollit nisi commodo do cillum.
-
-- name: PunWars
-  description: Tech Pun/meme making Events
-  organiser: Litsoc
-  date: 3/10/20
-  time: 5:30PM - 7:00 PM
-  details: |
-    Velit consequat velit dolore laborum excepteur non excepteur aute laboris. Aliqua culpa proident minim aliquip laboris velit. Nostrud incididunt sint proident nulla cupidatat non ad anim ex ea irure adipisicing. Irure commodo magna veniam nulla ex laborum tempor mollit officia mollit voluptate in. Non consequat nisi officia minim deserunt ex adipisicing.
+    
+#- name: PunWars
+#  description: Tech Pun/meme making Events
+#  organiser: Litsoc
+#  date: 3/10/20
+#  time: 5:30PM - 7:00 PM
+#  details: |
+#    Velit consequat velit dolore laborum excepteur non excepteur aute laboris. Aliqua culpa proident minim aliquip laboris velit. Nostrud incididunt sint proident nulla cupidatat non ad anim ex ea irure adipisicing. Irure commodo magna veniam nulla ex laborum tempor mollit officia mollit voluptate in. Non consequat nisi officia minim deserunt ex adipisicing.
 
 - name: Codeathon
   description: 5 days coding contest
@@ -52,7 +52,7 @@
 
 - name: Slash
   description: The Online Cryptic hunt
-  organiser: IEEE
+  organiser: IEEE and WiT
   date: 24/10/20 - 25/10/20
   time: 36 hours, will begin at 12 PM, Saturday
   details: |
@@ -76,7 +76,7 @@
   date: 26/10/2020
   time: 5:30 PM - 8:30 PM
   details: |
-    Commodo cillum exercitation ad sunt anim cillum exercitation. Labore irure consectetur occaecat elit. Commodo minim cillum consectetur labore enim ad nisi aute. Consequat Lorem est ullamco Lorem anim dolore irure duis consectetur anim ad esse. Occaecat id ea adipisicing non proident laborum adipisicing ad commodo sunt in.
+     Test your literature, pop culture and anime knowledge with this fun and lit quiz. A great way to gauge your fixation on that favourite fandom of the month.
 
 - name: Tech quiz (Pre + Post Event)
   description: A General Quiz
@@ -96,7 +96,7 @@
   date: 27/10/20
   time: 5:30 PM - 8:30 PM
   details: |
-    Fugiat adipisicing ex sint non irure cillum dolor tempor ea exercitation fugiat duis incididunt. Laboris nulla id do id irure ipsum nostrud reprehenderit qui consectetur excepteur esse pariatur exercitation. Adipisicing ipsum nulla consequat fugiat. Commodo tempor est ea sunt excepteur est.
+    Tech Talks is a technical group discussion event which will feature topics based on modern technical developments, mostly pertaining to philosophy and ethics in technology.
 
 - name: WebHub
   description: Web dev event
@@ -135,14 +135,6 @@
     - This is a single person competition and the participant with maximum points at the end of two hours would be declared the winner.
     - In case of tie between two participants, the person completing the contest in less time would be given preference.
     - Cash prizes to the top 3 participants would be awarded.
-
-- name: Scavenger Hunt
-  description: An online scavenger hunt
-  organiser: WIT
-  date: 28/10/20
-  time: Time Based Event TBD later
-  details: |
-    Duis cupidatat ipsum voluptate ea ullamco voluptate adipisicing officia eiusmod ut culpa pariatur ea. Nulla excepteur id consequat ullamco duis proident laborum anim deserunt Lorem consequat duis. Dolore eiusmod quis deserunt cillum veniam cupidatat. Duis aliqua reprehenderit id elit nisi duis reprehenderit esse quis aute. Anim anim cillum dolor id ea officia amet tempor. Deserunt irure voluptate nulla aliquip pariatur irure sit sint cupidatat ea. In adipisicing laboris tempor non ut.
 
 - name: AlgoThon + ZPT
   description: Trivia based on fusion of cse and maths
@@ -201,7 +193,7 @@
   date: 31/10/20
   time: 5:30 PM - 8:00 PM
   details: |
-    Proident aliqua nulla nostrud reprehenderit enim et. Commodo et adipisicing deserunt exercitation. Anim ut duis officia nostrud dolor fugiat proident eiusmod esse elit magna occaecat aliqua. Cupidatat incididunt duis commodo in enim nostrud nostrud cillum ut duis anim in enim proident. Consequat aute nisi non voluptate aliqua veniam mollit consequat. Deserunt laborum duis mollit consectetur eu labore ut ad ipsum Lorem nisi.
+    A poetry event where the topic/subject/muse will be given on the spot. Participants would be free to adhere to either English or Hindi and any poetry style.
 
 - name: Project Showcase
   description: Research/Engineering based project showcase
