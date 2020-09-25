@@ -2,7 +2,7 @@
   description: Sanchit G. (Google, 2013 Batch)
   organiser:
   date: 26/09/20
-  time: TBD
+  time: TBA
   details: |
     Getting to know the success stories of seniors and alumni is always motivating and exciting!
 
@@ -10,13 +10,13 @@
 
     This interactive session will introduce you with everything you need to know about Google- the team, the perks of working at Google, life at Google, the application process for internships, job openings, and preparing for the interview.
 
-- name: DSA Learning
-  description: A workshop on Data Structures by GeeksforGeeks
-  organiser:
-  date: 02/10/20
-  time: TBD
-  details: |
-    Ut officia laborum laboris anim. Ipsum aute amet aliquip ex dolore dolore minim excepteur. Eiusmod deserunt ea sit tempor deserunt pariatur mollit nisi commodo do cillum.
+#- name: DSA Learning
+#  description: A workshop on Data Structures by GeeksforGeeks
+#  organiser:
+#  date: 02/10/20
+#  time: TBD
+#  details: |
+#    Ut officia laborum laboris anim. Ipsum aute amet aliquip ex dolore dolore minim excepteur. Eiusmod deserunt ea sit tempor deserunt pariatur mollit nisi commodo do cillum.
     
 #- name: PunWars
 #  description: Tech Pun/meme making Events
@@ -38,20 +38,20 @@
   description: A Seminar by IEEE Fellow, Senior Scientist NASA JPL, Goutam Chattopadhyay
   organiser:
   date: 22/10/20
-  time: TBD
+  time: TBA
   details: |
     IEEE gives us the opportunity to get in touch with various people all over the world in a variety of fields. Listening to their experiences first hand is very motivating and inspiring to all students.
 
     To speak to us about his experiences,  we have Dr. Goutam Chattopadhyay, the Senior Research Scientist at the NASA Jet Propulsion Laboratory. Dr. Goutam Chattopadhyay is a notable member of IEEE, with various awards and publications under his name. It is an honour to have him share his experiences with us.
 
 
-- name: ECHO AR Workshop
-  description: Workshop on VR/AR by Echo AR
-  organiser:
-  date: 24/10/20
-  time: TBD
-  details: |
-    Aliquip pariatur eiusmod laboris officia et. Esse exercitation voluptate est voluptate quis consectetur cillum. Cillum adipisicing proident occaecat labore officia do duis duis adipisicing aliquip deserunt. Id ea ea sunt cupidatat deserunt. Magna officia dolor aliquip dolore ipsum fugiat commodo.
+#- name: ECHO AR Workshop
+#  description: Workshop on VR/AR by Echo AR
+#  organiser:
+#  date: 24/10/20
+#  time: TBD
+#  details: |
+#    Aliquip pariatur eiusmod laboris officia et. Esse exercitation voluptate est voluptate quis consectetur cillum. Cillum adipisicing proident occaecat labore officia do duis duis adipisicing aliquip deserunt. Id ea ea sunt cupidatat deserunt. Magna officia dolor aliquip dolore ipsum fugiat commodo.
 
 - name: Slash
   description: The Online Cryptic hunt
@@ -113,7 +113,7 @@
 
     Humans have been using innumerous websites since the beginning of the internet at the end of the 20th century. But if you are one of those who has got the creativity and skills to develop them, register for this event today!
 
-- name: Machine Wars
+- name: Data Unchained
   description: ML based competitive events
   organiser: IEEE
   date: 27/10/20 - 1/11/20
@@ -123,7 +123,7 @@
 
     We now present an experience for all machine learning enthusiasts to improve their skills and showcase it for everyone to see. Machine Wars will be a four day event which will be posted on Kaggle. Various problems will be released and after each round half the participants will be eliminated in a knockout style event.
 
-- name: Bioscience Event
+- name: BCodeIt
   description: A Datascience event
   organiser: Biobytes
   date: 28/10/20
@@ -139,8 +139,8 @@
     - In case of tie between two participants, the person completing the contest in less time would be given preference.
     - Cash prizes to the top 3 participants would be awarded.
 
-- name: AlgoThon + ZPT
-  description: Trivia based on fusion of cse and maths
+- name: ZPT
+  description: Zero Pre-requisite Tournament
   organiser: Evariste
   date: 29/10/20
   time: 5:30 PM - 8:30 PM
@@ -164,15 +164,15 @@
 
     The main aim of the event is to encourage and expose school going students to competitive programming and help them develop and enhance their coding skills.
 
-- name: Knockout Coding Challenge
-  description: a unique style coding competition with knockouts
-  organiser: Foobar
-  date: 30/10/20
-  time: 5:30 PM - 12:00 AM
-  details: |
-    Elysium’20 brings you a unique knockout style coding competition in collaboration with IIIT-Delhi's programming club Foobar.
-
-    It is an on-site coding competition consisting of multiple rounds. The participants apply their problem solving and algorithmic coding skills to advance through various rounds of the competition. After each round some of the participants will be eliminated from the competition and the remaining ones will compete in the subsequent rounds to win.
+#- name: Knockout Coding Challenge
+#  description: a unique style coding competition with knockouts
+#  organiser: Foobar
+#  date: 30/10/20
+#  time: 5:30 PM - 12:00 AM
+# details: |
+#    Elysium’20 brings you a unique knockout style coding competition in collaboration with IIIT-Delhi's programming club Foobar.
+#
+#    It is an on-site coding competition consisting of multiple rounds. The participants apply their problem solving and algorithmic coding skills to advance through various rounds of the competition. After each round some of the participants will be eliminated from the competition and the remaining ones will compete in the subsequent rounds to win.
 
 - name: Palette
   description: Design based event
@@ -209,15 +209,15 @@
 - name: Captur
   description: Online Theme Based Photograpny Contest
   organiser: Tasveer
-  date:
+  date: 26/10/20 - 1/11/20
   time: Submission Deadline
   details: |
-    Id labore ex culpa anim id non. Voluptate dolor qui irure fugiat. Deserunt et commodo sit ad ex do sit Lorem velit dolor fugiat. Ut consectetur adipisicing enim occaecat reprehenderit. Do velit occaecat eu velit voluptate. Nisi qui in do pariatur occaecat commodo exercitation cillum in incididunt. Adipisicing enim pariatur consectetur excepteur reprehenderit in amet enim duis reprehenderit dolore fugiat.
+#    Id labore ex culpa anim id non. Voluptate dolor qui irure fugiat. Deserunt et commodo sit ad ex do sit Lorem velit dolor fugiat. Ut consectetur adipisicing enim occaecat reprehenderit. Do velit occaecat eu velit voluptate. Nisi qui in do pariatur occaecat commodo exercitation cillum in incididunt. Adipisicing enim pariatur consectetur excepteur reprehenderit in amet enim duis reprehenderit dolore fugiat.
 
 - name: Filmatory
   description: Video Editing Challenge
   organiser: Tasveer
-  date:
+  date: 26/10/20 - 1/11/20
   time: Submission Deadline
   details: |
     As rightly said by Oprah Winfrey, “Passion is energy. Feel the power that comes from focusing on what excites you.”
