@@ -45,13 +45,17 @@
     To speak to us about his experiences,  we have Dr. Goutam Chattopadhyay, the Senior Research Scientist at the NASA Jet Propulsion Laboratory. Dr. Goutam Chattopadhyay is a notable member of IEEE, with various awards and publications under his name. It is an honour to have him share his experiences with us.
 
 
-#- name: ECHO AR Workshop
-#  description: Workshop on VR/AR by Echo AR
-#  organiser:
-#  date: 24/10/20
-#  time: TBD
-#  details: |
-#    Aliquip pariatur eiusmod laboris officia et. Esse exercitation voluptate est voluptate quis consectetur cillum. Cillum adipisicing proident occaecat labore officia do duis duis adipisicing aliquip deserunt. Id ea ea sunt cupidatat deserunt. Magna officia dolor aliquip dolore ipsum fugiat commodo.
+- name: ECHO AR Workshop
+  description: Workshop on VR/AR by Echo AR
+  organiser:
+  date: 24/10/20
+  time: TBD
+  details: |
+    Elysium’20 brings to you a workshop in collaboration with EchoAR. The workshop will teach you how to build a Cloud connected AR/VR App in just 15 minutes!! 
+
+    No technical or coding experience is required. Participants will learn how to develop Augmented and Virtual Reality Apps using the echoAR platform in just a short period of time. They will discover how AR/VR are changing the world through the demonstration of different use cases of 3D applications and live demos. Platforms for experimentation include- Google ARCore,WebXR, Vuforia, Unity-based apps and many more. All those who wish to participate will be requiring a laptop and a smartphone. 
+
+    So what are you waiting for??
 
 - name: Slash
   description: The Online Cryptic hunt
