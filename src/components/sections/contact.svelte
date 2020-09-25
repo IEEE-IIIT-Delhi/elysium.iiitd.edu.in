@@ -3,6 +3,29 @@
 
   import Section from '../section.svelte'
   import Image from '../image.svelte'
+
+  const socialLinks = [
+    {
+      name: 'Instagram',
+      href: 'https://instagram.com/ieeeiiitdelhi/',
+      image: '/images/social/instagram.svg'
+    },
+    {
+      name: 'Facebook',
+      href: 'https://www.facebook.com/ieeeiiitd/',
+      image: '/images/social/facebook.svg'
+    },
+    {
+      name: 'Twitter',
+      href: 'https:/twitter.com/ieee_d/',
+      image: '/images/social/twitter.svg'
+    },
+    {
+      name: 'LinkedIn',
+      href: 'https://www.linkedin.com/company/ieee-iiitd/',
+      image: '/images/social/linkedin.svg'
+    }
+  ]
 </script>
 
 <Section id={'contact'} heading={'Contact'} >
@@ -20,6 +43,20 @@
         <p><strong>Instagram:</strong> <a href="https://instagram.com/{contact.instagram}" target='_blank' rel='noopener'>{contact.instagram}</a></p>
       </div>
     {/each}
+  </div>
+
+  <div class="social">
+    <h3>IEEE, IIIT Delhi is on</h3>
+    <ul>
+      {#each socialLinks as link}
+        <li class='hover-highlight'>
+          <a href={link.href} target="_blank" rel="noopener">
+            <img src="{link.image}" alt="{link.name} Logo">
+            {link.name}
+          </a>
+        </li>
+      {/each}
+    </ul>
   </div>
 </Section>
 
@@ -81,6 +118,44 @@
 
         strong {
           color: #6b717d;
+        }
+      }
+    }
+  }
+
+  .social {
+    h3 {
+      letter-spacing: 0.5px;
+      font-weight: 600;
+      color: #4271a7;
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px -20px 0;
+
+      li {
+        list-style-type: none;
+        margin: 10px 20px;
+
+        a {
+          display: flex;
+          align-items: center;
+          color: inherit;
+
+          &:hover {
+            img {
+              opacity: 1;
+            }
+          }
+        }
+
+        img {
+          height: 20px;
+          margin-right: 10px;
+          opacity: 0.5;
+          transition: 0.1s all ease-in-out;
         }
       }
     }

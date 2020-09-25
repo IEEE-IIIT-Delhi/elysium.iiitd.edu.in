@@ -1,3 +1,11 @@
+- name: NordVPN
+  link: https://nordvpn.com/
+  image: /images/sponsors/nordvpn.png
+
+# - name: Nestlé
+#   link: https://nestle.in/
+#   image: /images/sponsors/nestle.png
+
 - name: ShubhiTech
   link: https://www.shubhitech.com
   image: /images/sponsors/shubhi-tech.png
@@ -13,10 +21,6 @@
 - name: Balsamiq
   link: https://balsamiq.com/
   image: /images/sponsors/balsamiq.png
-
-# - name: Nestlé
-#   link: https://nestle.in/
-#   image: /images/sponsors/nestle.png
 
 - name: Sticker Mule
   link: https://www.stickermule.com

@@ -7,6 +7,7 @@
   import Logo from '../logo.svelte'
   import YoutubeIcon from '../icons/youtube.svelte'
   import LinkIcon from '../icons/link.svelte'
+  import Image from '../image.svelte'
 
   let email = ''
   let loaded = false
@@ -65,6 +66,22 @@
       <Logo />
       <h1>ELYSIU<span class='no-letter-spacing'>M</span></h1>
       <h2>IEEE-IIITD's TechWeek</h2>
+    </div>
+
+    <ul class="sponsors">
+      <li>
+        <a href="https://nordvpn.com/" target="_blank" rel="noopener">
+          <Image src="/images/sponsors/nordvpn.png" alt="NordVPN Logo" />
+        </a>
+      </li>
+      <!-- <li>
+        <a href="https://nestle.in/">
+          <Image src="/images/sponsors/nestle.png" alt="Nestlé Logo" />
+        </a>
+      </li> -->
+    </ul>
+
+    <div class="date">
       <h3>
         <time datetime="2020-10-26">26<sup>th</sup> Oct</time>
         &mdash;
@@ -109,7 +126,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      margin-top: calc(10vh + 40px);
+      margin-top: calc(10vh + 80px);
 
       .main {
         text-align: center;
@@ -138,13 +155,6 @@
           font-weight: 100;
         }
 
-        h3 {
-          font-weight: 100;
-          margin-top: 5vh;
-          font-size: 1.2rem;
-          letter-spacing: 2px;
-        }
-
         &.loaded {
           h1::after {
             width: 100%;
@@ -156,8 +166,42 @@
         }
       }
 
+      ul.sponsors {
+        display: flex;
+        margin: 5vh -5px;
+        justify-content: center;
+
+        li {
+          list-style-type: none;
+          margin: 0 5px;
+        }
+
+        a {
+          opacity: 0.5;
+          transition: 0.1s all ease-in-out;
+
+          &:hover,
+          &:focus {
+            opacity: 1;
+          }
+        }
+
+        :global(img) {
+          max-height: 35px;
+        }
+      }
+
+      .date {
+        margin-bottom: 7.5vh;
+
+        h3 {
+          font-weight: 100;
+          font-size: 1.2rem;
+          letter-spacing: 2px;
+        }
+      }
+
       a.intro-video {
-        margin-top: 5vh;
         display: flex;
         align-items: center;
         text-decoration: none;
