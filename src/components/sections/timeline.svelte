@@ -50,13 +50,17 @@
           {/if}
           <p class="description">{node.description}</p>
 
-          <button
-            class='details hover-highlight focus-highlight'
-            on:click={() => node.expand = !node.expand}
-          >
-            Details
-            <Chevron open={node.expand}/>
-          </button>
+          <div class="clickables">
+            <a href="{node.registration}" target="_blank" rel="noopener">Register</a>
+
+            <button
+              class='details hover-highlight focus-highlight'
+              on:click={() => node.expand = !node.expand}
+            >
+              Details
+              <Chevron open={node.expand}/>
+            </button>
+          </div>
 
           {#if node.expand}
             <div class="details safari-overflow-fix" transition:slide={{ duration: 300 }}>
@@ -163,30 +167,41 @@
         }
       }
 
-      button.details {
+      .clickables {
         display: flex;
-        background: none;
-        border: 1px solid #062431;
-        color: #12baa3;
-        padding: 5px 10px;
-        margin-top: 10px;
-        border-radius: 5px;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        outline: none;
-        font-family: Inter;
-        transition: 0.2s all ease-in-out;
 
-        :global(svg) {
-          height: 20px;
-          margin: 0px -10px 0 0px;
-          stroke: #038473;
+        a {
+          margin-right: 10px;
         }
 
-        &:hover,
-        &:focus {
-          background: #062431;
+        * {
+          display: flex;
+          background: none;
+          border: 1px solid #062431;
+          color: #12baa3;
+          padding: 5px 10px;
+          margin-top: 10px;
+          border-radius: 5px;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          outline: none;
+          font-family: Inter;
+          font-size: 13.5px;
+          letter-spacing: 0;
+          text-decoration: none;
+          transition: 0.2s all ease-in-out;
+
+          :global(svg) {
+            height: 20px;
+            margin: 0px -10px 0 0px;
+            stroke: #038473;
+          }
+
+          &:hover,
+          &:focus {
+            background: #062431;
+          }
         }
       }
     }

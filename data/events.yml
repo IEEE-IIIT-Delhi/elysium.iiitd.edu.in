@@ -14,14 +14,6 @@
     nonethless help you learn for 5 days straight even if you can't win the
     big-fat prizes for the best.
 
-- name: Palette
-  description: >-
-    Design at Elysium'20. A one-of-a-kind Graphic Design event spanning over 4 weeks.
-    We will share the details of a fictitious company asking the participants
-    to create a visual identity for them, a chance to communicate intangible
-    qualities with visual communication. With Prizes worth Rs. X, we bring to
-    you the platform to present your skills and get judged by the best in the field.
-
 - name: Slash
   description: >-
     Slash Hunt is a cryptic hunt being organized by Women in Tech in collaboration 
@@ -30,7 +22,15 @@
     problem solving using tech and a plethora of softwares. The event will be 
     a great starting point for beginners who are just getting into the world of 
     tech and for tech geeks and pros who are looking for a fresh, competitive 
-    and fun challenge. 
+    and fun challenge.
+
+- name: Palette
+  description: >-
+    Design at Elysium'20. A one-of-a-kind Graphic Design event spanning over 4 weeks.
+    We will share the details of a fictitious company asking the participants
+    to create a visual identity for them, a chance to communicate intangible
+    qualities with visual communication. With Prizes worth Rs. X, we bring to
+    you the platform to present your skills and get judged by the best in the field.
     
 - name: Data Unchained
   description: >-
