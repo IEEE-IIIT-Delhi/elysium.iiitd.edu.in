@@ -187,7 +187,7 @@
           cursor: pointer;
           outline: none;
           font-family: Inter;
-          font-size: 13.5px;
+          font-size: 13px;
           letter-spacing: 0;
           text-decoration: none;
           transition: 0.2s all ease-in-out;
