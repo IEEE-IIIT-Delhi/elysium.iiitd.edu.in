@@ -252,6 +252,7 @@
 
     @media only screen and (max-width: 800px) {
       flex-flow: row-reverse !important;
+      margin: 30px 0;
 
       .info {
         text-align: left !important;
