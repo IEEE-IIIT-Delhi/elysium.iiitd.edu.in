@@ -3,6 +3,7 @@
   organiser:
   date: 26/09/20
   time: TBA
+  registration: 
   details: |
     Getting to know the success stories of seniors and alumni is always motivating and exciting!
 
@@ -31,6 +32,7 @@
   organiser: IEEE
   date: 21/10/20 - 25/10/20
   time: 5:30 PM - 12 AM
+  registration: https://forms.gle/1FBQ4XGPrtkG96Hq9
   details: |
     Coding event at Elysium'20. A one-of-a-kind coding event spanning 5 days. We will share some coding questions every day for 5 days along with some study material and ask the participants to solve them. The person with the highest score wins. With Prizes worth Rs.85000, we bring to you the platform to present your skills and get judged by the best in the field. 
 
@@ -39,6 +41,7 @@
   organiser:
   date: 22/10/20
   time: TBA
+  registration: 
   details: |
     IEEE gives us the opportunity to get in touch with various people all over the world in a variety of fields. Listening to their experiences first hand is very motivating and inspiring to all students.
 
@@ -50,6 +53,7 @@
   organiser:
   date: 24/10/20
   time: TBD
+  registration: 
   details: |
     Elysium’20 brings to you a workshop in collaboration with EchoAR. The workshop will teach you how to build a Cloud connected AR/VR App in just 15 minutes!! 
 
@@ -62,6 +66,7 @@
   organiser: IEEE and WiT
   date: 24/10/20 - 25/10/20
   time: 36 hours, will begin at 12 PM, Saturday
+  registration:
   details: |
     Slash Hunt is a cryptic hunt being organized by IEEE IIITD in collaboration with Women in Tech. The event will take  place in a 2-day, 36-hour format and will be an amalgamation of ciphers,  problem solving using tech and a plethora of softwares. The event will be a great starting point for beginners who are just getting into the world of tech and for tech geeks and pros who are looking for a fresh, competitive and fun challenge. 
 
@@ -70,10 +75,11 @@
   organiser: Foobar
   date: 26/10/20
   time: 5:30 PM - 12:00 AM
+  registration: https://forms.gle/qMd6KUkPrZSjJKfW8
   details: |
     Do you think you have what it takes to be a great programmer?
 
-    Elysium brings to you - “PROSORT”,  an on-site programming competition organized by IIITD’s programming club Foobar.
+    Elysium brings to you - “PROSORT”,  an online programming competition organized by IIITD’s programming club Foobar.
 
     It is a team event which gives you a chance to go head on head with the country’s brightest algorithmic brains and solve a variety of challenging programming problems.
 
@@ -82,16 +88,18 @@
   organiser: Litsoc
   date: 26/10/2020
   time: 5:30 PM - 8:30 PM
+  registration: https://forms.gle/pCN2sP4LxkNfe2Rz5
   details: |
      Test your literature, pop culture and anime knowledge with this fun and lit quiz. A great way to gauge your fixation on that favourite fandom of the month.
 
-- name: Tech quiz (Pre + Post Event)
+- name: Bachmanity Insanity
   description: A General Quiz
   organiser: Trivialis
   date: 27/10/20
-  time: 5:30 - 7:30
+  time: 5:30 PM - 7:30 PM
+  registration: https://forms.gle/3rQyAUmEXLJe96eZ9
   details: |
-    Put your knowledge about all things technology to the test with Elysium’s ‘Tech Quiz’ and have some nerdy fun in the process.
+    Put your knowledge about all things technology to the test with Elysium’s Tech Quiz, 'Bachmanity Insanity' and have some fun in the process.
 
     Since any technology, be it computers, the internet, software or big data, changes rapidly on a day-to-day basis, it is now a must to stay up to date with the technology that dominates our modern day lives.
 
@@ -102,6 +110,7 @@
   organiser: Litsoc
   date: 27/10/20
   time: 5:30 PM - 8:30 PM
+  registration: https://forms.gle/484sVYVBa3xxW6v88
   details: |
     Tech Talks is a technical group discussion event which will feature topics based on modern technical developments, mostly pertaining to philosophy and ethics in technology.
 
@@ -110,6 +119,7 @@
   organiser: Byld
   date: 27/10/20
   time: 2-day event starting at 12 AM
+  registration: https://forms.gle/zdfVK3sEPP8QpNTx8
   details: |
     Do you enjoy designing and developing websites?
 
@@ -122,16 +132,35 @@
   organiser: IEEE
   date: 27/10/20 - 1/11/20
   time: 5:30 PM
+  registration: https://forms.gle/3D3SLLpDguSCz8DD9
   details: |
     Machine learning is the study of computer algorithms that improve automatically through experience.
 
     We now present an experience for all machine learning enthusiasts to improve their skills and showcase it for everyone to see. Machine Wars will be a four day event which will be posted on Kaggle. Various problems will be released and after each round half the participants will be eliminated in a knockout style event.
+
+- name: Stonks
+  description: A mock stock exchange game.
+  organiser: Finnexia
+  date: 28/10/20
+  time: 5:30 PM - 7:30 PM
+  registration: https://forms.gle/35LC6hEf77fpn1bP7
+  details: |
+    A game of luck, skill, and strategy, it is modeled on stock exchanges over the world. It takes you through the main moves of share transactions. Markets are a tricky game. Do you have what it takes to beat it? Presenting “Stonks”, compete to build your portfolios, maximize your profits, and win lucrative gains. Your chance to check if you play the market or it plays you!
+    
+    -- All teams start with 1 lac game money. 
+    -- Companies’ list and share prices are revealed in Round 1. 
+    -- News about market events is revealed in subsequent rounds which affect share prices.
+    -- 15 minutes per round to buy/sell shares in various ratios in various companies
+    -- The teams with maximum profit at the end of 5 rounds win.
+    -- Team Size: 2
+    -- Individual entries are also allowed
 
 - name: BCodeIt
   description: A Datascience event
   organiser: Biobytes
   date: 28/10/20
   time: Submission Deadline
+  registration: https://forms.gle/Qf5Nkn3eiUHz2iSo9
   details: |
     *A problem-solving contest on computational biology.*
 
@@ -148,6 +177,7 @@
   organiser: Evariste
   date: 29/10/20
   time: 5:30 PM - 8:30 PM
+  registration: https://forms.gle/2DsdNzrK9QbdKc8TA
   details: |
     Team Size: 1
 
@@ -163,8 +193,9 @@
   organiser: Foobar
   date: 29/10/20
   time: 5:30 PM - 12:00 AM
+  registration: https://forms.gle/uHbmWGfDPQY6eu5n6
   details: |
-    Elysium’20 presents to you  an on-site programming competition for school students new to the world of coding and competitive programming. The contest is organized by IIITD’s programming club Foobar.
+    Elysium’20 presents to you  an online programming competition for school students new to the world of coding and competitive programming. The contest is organized by IIITD’s programming club Foobar.
 
     The main aim of the event is to encourage and expose school going students to competitive programming and help them develop and enhance their coding skills.
 
@@ -183,6 +214,7 @@
   organiser: IEEE
   date: 30/10/20
   time: 30th Submission Deadline
+  registration: https://forms.gle/uHbmWGfDPQY6eu5n6
   details: |
     Design at Elysium'20. A one-of-a-kind Graphic Design event spanning over 4 weeks. We will share the details of a fictitious company asking the participants to create a visual identity for them, a chance to communicate intangible qualities with visual communication. With Prizes worth Rs.90000, we bring to you the platform to present your skills and get judged by the best in the field.
 
@@ -191,6 +223,7 @@
   organiser: IEEE
   date: 30/10/20 - 1/11/20
   time: 12PM(S)  - 6 PM(S) (30 hours)
+  registration: https://saddahack.tech
   details: |
     The Big-Fat Hackathon. SaddaHack is the prime event of Elysium'20. With total prize money of worth 1.5Lac and a platform to go head-to-head with the best competitors, It's going to be a fun-filled 2 days with the most interesting problem-set to develop & solve.
 
@@ -199,6 +232,7 @@
   organiser: Litsoc
   date: 31/10/20
   time: 5:30 PM - 8:00 PM
+  registration: https://forms.gle/ALvK3YFPboXFuX236
   details: |
     A poetry event where the topic/subject/muse will be given on the spot. Participants would be free to adhere to either English or Hindi and any poetry style.
 
@@ -207,14 +241,16 @@
   organiser: IEEE
   date: 31/10/20 - 1/11/20
   time: 12PM - 5PM (Both Days)
+  registration: https://forms.gle/Lhe4ektKM3axTG7k9
   details: |
     A Combined Platform for our budding researchers & innovators to showcase their projects and get reviews and suggestions from world-class researchers/industrial developers and renowned industry mentors.
 
 - name: Captur
-  description: Online Theme Based Photograpny Contest
+  description: Online Theme Based Photography Contest
   organiser: Tasveer
   date: 26/10/20 - 1/11/20
   time: Submission Deadline
+  registration: https://forms.gle/kcXhh9Z8KtZLw1EV6
   details: |
     The best thing about a photograph is that it never changes, even if the people in it do! It allows us to touch other people no matter where they are, no matter their culture, religion, colour, time period. With photography, you can connect, you can teach, discover, feel, relate. We, at Elysium’20, give you the opportunity to relive some of your favourite moments or create them, beautify them and showcase your best ones! Captur is our Photography Editing Challenge, which gives you the opportunity to show how you see the world through your camera lens.
     
@@ -223,6 +259,7 @@
   organiser: Tasveer
   date: 26/10/20 - 1/11/20
   time: Submission Deadline
+  registration: https://forms.gle/JGXjhN5FDneTuvu78
   details: |
     As rightly said by Oprah Winfrey, “Passion is energy. Feel the power that comes from focusing on what excites you.”
 
