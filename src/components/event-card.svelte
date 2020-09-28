@@ -7,7 +7,7 @@
 <div class="event hover-highlight--low">
   <h3>{name}</h3>
   <p>{description}</p>
-  <a href="{link}" target="_blank" rel="noopener">Register</a>
+  <a href="{registration}" target="_blank" rel="noopener">Register</a>
 </div>
 
 <style lang='scss'>
