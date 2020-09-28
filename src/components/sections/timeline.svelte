@@ -51,7 +51,9 @@
           <p class="description">{node.description}</p>
 
           <div class="clickables">
-            <a href="{node.registration}" target="_blank" rel="noopener">Register</a>
+            {#if node.registration}
+              <a href="{node.registration}" target="_blank" rel="noopener">Register</a>
+            {/if}
 
             <button
               class='details hover-highlight focus-highlight'

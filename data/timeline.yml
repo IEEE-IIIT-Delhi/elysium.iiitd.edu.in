@@ -3,7 +3,7 @@
   organiser:
   date: 26/09/20
   time: TBA
-  registration: 
+  registration:
   details: |
     Getting to know the success stories of seniors and alumni is always motivating and exciting!
 
@@ -18,7 +18,7 @@
 #  time: TBD
 #  details: |
 #    Ut officia laborum laboris anim. Ipsum aute amet aliquip ex dolore dolore minim excepteur. Eiusmod deserunt ea sit tempor deserunt pariatur mollit nisi commodo do cillum.
-    
+
 #- name: PunWars
 #  description: Tech Pun/meme making Events
 #  organiser: Litsoc
@@ -34,14 +34,14 @@
   time: 5:30 PM - 12 AM
   registration: https://forms.gle/1FBQ4XGPrtkG96Hq9
   details: |
-    Coding event at Elysium'20. A one-of-a-kind coding event spanning 5 days. We will share some coding questions every day for 5 days along with some study material and ask the participants to solve them. The person with the highest score wins. With Prizes worth Rs.85000, we bring to you the platform to present your skills and get judged by the best in the field. 
+    Coding event at Elysium'20. A one-of-a-kind coding event spanning 5 days. We will share some coding questions every day for 5 days along with some study material and ask the participants to solve them. The person with the highest score wins. With Prizes worth Rs.85000, we bring to you the platform to present your skills and get judged by the best in the field.
 
 - name: Innovation Talks
   description: A Seminar by IEEE Fellow, Senior Scientist NASA JPL, Goutam Chattopadhyay
   organiser:
   date: 22/10/20
   time: TBA
-  registration: 
+  registration:
   details: |
     IEEE gives us the opportunity to get in touch with various people all over the world in a variety of fields. Listening to their experiences first hand is very motivating and inspiring to all students.
 
@@ -53,11 +53,11 @@
   organiser:
   date: 24/10/20
   time: TBD
-  registration: 
+  registration:
   details: |
-    Elysium’20 brings to you a workshop in collaboration with EchoAR. The workshop will teach you how to build a Cloud connected AR/VR App in just 15 minutes!! 
+    Elysium’20 brings to you a workshop in collaboration with EchoAR. The workshop will teach you how to build a Cloud connected AR/VR App in just 15 minutes!!
 
-    No technical or coding experience is required. Participants will learn how to develop Augmented and Virtual Reality Apps using the echoAR platform in just a short period of time. They will discover how AR/VR are changing the world through the demonstration of different use cases of 3D applications and live demos. Platforms for experimentation include- Google ARCore,WebXR, Vuforia, Unity-based apps and many more. All those who wish to participate will be requiring a laptop and a smartphone. 
+    No technical or coding experience is required. Participants will learn how to develop Augmented and Virtual Reality Apps using the echoAR platform in just a short period of time. They will discover how AR/VR are changing the world through the demonstration of different use cases of 3D applications and live demos. Platforms for experimentation include- Google ARCore,WebXR, Vuforia, Unity-based apps and many more. All those who wish to participate will be requiring a laptop and a smartphone.
 
     So what are you waiting for??
 
@@ -68,7 +68,7 @@
   time: 36 hours, will begin at 12 PM, Saturday
   registration:
   details: |
-    Slash Hunt is a cryptic hunt being organized by IEEE IIITD in collaboration with Women in Tech. The event will take  place in a 2-day, 36-hour format and will be an amalgamation of ciphers,  problem solving using tech and a plethora of softwares. The event will be a great starting point for beginners who are just getting into the world of tech and for tech geeks and pros who are looking for a fresh, competitive and fun challenge. 
+    Slash Hunt is a cryptic hunt being organized by IEEE IIITD in collaboration with Women in Tech. The event will take  place in a 2-day, 36-hour format and will be an amalgamation of ciphers,  problem solving using tech and a plethora of softwares. The event will be a great starting point for beginners who are just getting into the world of tech and for tech geeks and pros who are looking for a fresh, competitive and fun challenge.
 
 - name: Prosort
   description: Online programming contest
@@ -90,7 +90,7 @@
   time: 5:30 PM - 8:30 PM
   registration: https://forms.gle/pCN2sP4LxkNfe2Rz5
   details: |
-     Test your literature, pop culture and anime knowledge with this fun and lit quiz. A great way to gauge your fixation on that favourite fandom of the month.
+    Test your literature, pop culture and anime knowledge with this fun and lit quiz. A great way to gauge your fixation on that favourite fandom of the month.
 
 - name: Bachmanity Insanity
   description: A General Quiz
@@ -146,14 +146,14 @@
   registration: https://forms.gle/35LC6hEf77fpn1bP7
   details: |
     A game of luck, skill, and strategy, it is modeled on stock exchanges over the world. It takes you through the main moves of share transactions. Markets are a tricky game. Do you have what it takes to beat it? Presenting “Stonks”, compete to build your portfolios, maximize your profits, and win lucrative gains. Your chance to check if you play the market or it plays you!
-    
-    -- All teams start with 1 lac game money. 
-    -- Companies’ list and share prices are revealed in Round 1. 
-    -- News about market events is revealed in subsequent rounds which affect share prices.
-    -- 15 minutes per round to buy/sell shares in various ratios in various companies
-    -- The teams with maximum profit at the end of 5 rounds win.
-    -- Team Size: 2
-    -- Individual entries are also allowed
+
+    - All teams start with 1 lac game money.
+    - Companies’ list and share prices are revealed in Round 1.
+    - News about market events is revealed in subsequent rounds which affect share prices.
+    - 15 minutes per round to buy/sell shares in various ratios in various companies
+    - The teams with maximum profit at the end of 5 rounds win.
+    - Team Size: 2
+    - Individual entries are also allowed
 
 - name: BCodeIt
   description: A Datascience event
@@ -253,7 +253,7 @@
   registration: https://forms.gle/kcXhh9Z8KtZLw1EV6
   details: |
     The best thing about a photograph is that it never changes, even if the people in it do! It allows us to touch other people no matter where they are, no matter their culture, religion, colour, time period. With photography, you can connect, you can teach, discover, feel, relate. We, at Elysium’20, give you the opportunity to relive some of your favourite moments or create them, beautify them and showcase your best ones! Captur is our Photography Editing Challenge, which gives you the opportunity to show how you see the world through your camera lens.
-    
+
 - name: Filmatory
   description: Video Editing Challenge
   organiser: Tasveer
@@ -263,8 +263,8 @@
   details: |
     As rightly said by Oprah Winfrey, “Passion is energy. Feel the power that comes from focusing on what excites you.”
 
-    Do you have a passion for video editing? 
+    Do you have a passion for video editing?
 
-    If yes, then come join us at Elysium and use that power of passion in creating some award-winning and intriguing videos. Even if you’re a trained professional or just a keen enthusiast, this event will help you build up or refresh your skills, while you’re at the comfort of your home. 
+    If yes, then come join us at Elysium and use that power of passion in creating some award-winning and intriguing videos. Even if you’re a trained professional or just a keen enthusiast, this event will help you build up or refresh your skills, while you’re at the comfort of your home.
 
     Inspire people with your imagination and creativity and win our hearts along with some crazy prizes and goodies!

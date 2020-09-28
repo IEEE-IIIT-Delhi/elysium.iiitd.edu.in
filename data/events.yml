@@ -1,4 +1,5 @@
 - name: Sadda Hack
+  registration: https://saddahack.tech
   description: >-
     The Big-Fat Hackathon. SaddaHack is the prime event of Elysium'20. With a
     total prize money of worth 1Lac and a platform to go head-to-head with the
@@ -6,6 +7,7 @@
     interesting problem-set to develop & solve.
 
 - name: Codeathon
+  registration: https://forms.gle/1FBQ4XGPrtkG96Hq9
   description: >-
     The flagship coding community of IEEE IIITD. This time with more incentives.
     With over 850+ regular coders, competing together, growing together, this
@@ -15,6 +17,7 @@
     big-fat prizes for the best.
 
 - name: Slash
+  registration: 
   description: >-
     Slash Hunt is a cryptic hunt being organized by Women in Tech in collaboration 
     with IEEE IIITD and IEEE IIITD’s Women in Engineering branch. The event will take 
@@ -25,6 +28,7 @@
     and fun challenge.
 
 - name: Palette
+  registration: https://forms.gle/uHbmWGfDPQY6eu5n6
   description: >-
     Design at Elysium'20. A one-of-a-kind Graphic Design event spanning over 4 weeks.
     We will share the details of a fictitious company asking the participants
@@ -33,6 +37,7 @@
     you the platform to present your skills and get judged by the best in the field.
     
 - name: Data Unchained
+  registration: https://forms.gle/3D3SLLpDguSCz8DD9
   description: >-
     Presenting an experience for all machine learning enthusiasts to improve
     their skills and showcase it for everyone to see. Machine Wars will be a
@@ -41,6 +46,7 @@
     the participants will be eliminated in a knockout style event.
 
 - name: PRAISE - Research Showcase
+  registration: https://forms.gle/Lhe4ektKM3axTG7k9
   description: >-
     A Combined Platform for our budding researchers & innovators to showcase
     their projects and get reviews and suggestions from world-class

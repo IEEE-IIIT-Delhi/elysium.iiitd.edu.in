@@ -1,13 +1,15 @@
 <script>
   export let name
   export let description
-  export let link
+  export let registration
 </script>
 
 <div class="event hover-highlight--low">
   <h3>{name}</h3>
   <p>{description}</p>
-  <a href="{registration}" target="_blank" rel="noopener">Register</a>
+  {#if registration}
+    <a href="{registration}" target="_blank" rel="noopener">Register</a>
+  {/if}
 </div>
 
 <style lang='scss'>
@@ -58,7 +60,7 @@
       font-size: 14px;
       letter-spacing: 0;
       font-weight: 600;
-      cursor: pointer;
+      text-decoration: none;
       transition: 0.2s all ease-in-out;
 
       &:hover,
