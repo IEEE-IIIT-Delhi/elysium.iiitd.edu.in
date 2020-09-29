@@ -75,8 +75,8 @@
         </a>
       </li>
       <li>
-        <a href="https://nestle.in/">
-          <Image src="/images/sponsors/nestle.png" alt="Nestlé Logo" />
+        <a href="https://www.nescafe.com/in/">
+          <Image src="/images/sponsors/nescafe.png" alt="Nescafé Logo" />
         </a>
       </li>
     </ul>
@@ -173,7 +173,7 @@
 
         li {
           list-style-type: none;
-          margin: 0 5px;
+          margin: 0 10px;
         }
 
         a {
