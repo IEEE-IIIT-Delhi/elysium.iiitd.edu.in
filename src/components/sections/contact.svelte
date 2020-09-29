@@ -26,6 +26,19 @@
       image: '/images/social/linkedin.svg'
     }
   ]
+  const socialLinks2 = [
+    {
+      name: 'Instagram',
+      href: 'https://instagram.com/elysium.iiitd/',
+      image: '/images/social/instagram.svg'
+    },
+    {
+      name: 'Facebook',
+      href: 'https://www.facebook.com/ElysiumIIITD2020/',
+      image: '/images/social/facebook.svg'
+    }
+  ]
+  
 </script>
 
 <Section id={'contact'} heading={'Contact'} >
@@ -58,6 +71,21 @@
       {/each}
     </ul>
   </div>
+  
+  <div class="social">
+    <h3>Find Elysium at</h3>
+    <ul>
+      {#each socialLinks2 as link}
+        <li class='hover-highlight'>
+          <a href={link.href} target="_blank" rel="noopener">
+            <img src="{link.image}" alt="{link.name} Logo">
+            {link.name}
+          </a>
+        </li>
+      {/each}
+    </ul>
+  </div>
+  
 </Section>
 
 <style lang="scss">
