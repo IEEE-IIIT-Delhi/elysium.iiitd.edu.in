@@ -74,11 +74,11 @@
           <Image src="/images/sponsors/nordvpn.png" alt="NordVPN Logo" />
         </a>
       </li>
-      <!-- <li>
+      <li>
         <a href="https://nestle.in/">
           <Image src="/images/sponsors/nestle.png" alt="Nestlé Logo" />
         </a>
-      </li> -->
+      </li>
     </ul>
 
     <div class="date">
