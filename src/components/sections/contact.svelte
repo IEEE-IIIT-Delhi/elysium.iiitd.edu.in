@@ -1,45 +1,9 @@
 <script>
   import contacts from '../../../data/contacts.yml'
+  import socials from '../../../data/socials.yml'
 
   import Section from '../section.svelte'
   import Image from '../image.svelte'
-
-  const socialLinks = {
-    ieee: [
-      {
-        name: 'Instagram',
-        href: 'https://instagram.com/ieeeiiitdelhi/',
-        icon: '/images/social/instagram.svg'
-      },
-      {
-        name: 'Facebook',
-        href: 'https://www.facebook.com/ieeeiiitd/',
-        icon: '/images/social/facebook.svg'
-      },
-      {
-        name: 'Twitter',
-        href: 'https:/twitter.com/ieee_d/',
-        icon: '/images/social/twitter.svg'
-      },
-      {
-        name: 'LinkedIn',
-        href: 'https://www.linkedin.com/company/ieee-iiitd/',
-        icon: '/images/social/linkedin.svg'
-      }
-    ],
-    elysium: [
-      {
-        name: 'Instagram',
-        href: 'https://instagram.com/elysium.iiitd/',
-        icon: '/images/social/instagram.svg'
-      },
-      {
-        name: 'Facebook',
-        href: 'https://www.facebook.com/ElysiumIIITD2020/',
-        icon: '/images/social/facebook.svg'
-      }
-    ]
-  }
 </script>
 
 <Section id={'contact'} heading={'Contact'} >
@@ -62,7 +26,7 @@
   <div class="social">
     <h3>IEEE, IIIT Delhi is on</h3>
     <ul>
-      {#each socialLinks.ieee as link}
+      {#each socials.ieee as link}
         <li class='hover-highlight'>
           <a href={link.href} target="_blank" rel="noopener">
             <img src="{link.icon}" alt="{link.name} logo">
@@ -76,7 +40,7 @@
   <div class="social">
     <h3>Find Elysium at</h3>
     <ul>
-      {#each socialLinks.elysium as link}
+      {#each socials.elysium as link}
         <li class='hover-highlight'>
           <a href={link.href} target="_blank" rel="noopener">
             <img src="{link.icon}" alt="{link.name} logo">
