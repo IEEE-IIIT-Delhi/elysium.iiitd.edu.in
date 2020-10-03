@@ -1,15 +1,15 @@
-- name: Alumni Talks (2013 batch)
-  description: Sanchit G. (Google, 2013 Batch)
-  organiser:
-  date: 26/09/20
-  time: TBA
-  registration:
-  details: |
-    Getting to know the success stories of seniors and alumni is always motivating and exciting!
+#- name: Alumni Talks (2013 batch)
+#  description: Sanchit G. (Google, 2013 Batch)
+#  organiser:
+#  date: 26/09/20
+#  time: TBA
+#  registration:
+#  details: |
+#    Getting to know the success stories of seniors and alumni is always motivating and exciting!
 
-    Elysium brings you the opportunity to get to know Sanchit, a Software Engineer II at Google. He completed his B.Tech with Honors in Computer Science and Engineering from IIIT-Delhi in 2017. He has also been a research intern for Microsoft, Bosch, and Xerox.
+#    Elysium brings you the opportunity to get to know Sanchit, a Software Engineer II at Google. He completed his B.Tech with Honors in Computer Science and Engineering from IIIT-Delhi in 2017. He has also been a research intern for Microsoft, Bosch, and Xerox.
 
-    This interactive session will introduce you with everything you need to know about Google- the team, the perks of working at Google, life at Google, the application process for internships, job openings, and preparing for the interview.
+#    This interactive session will introduce you with everything you need to know about Google- the team, the perks of working at Google, life at Google, the application process for internships, job openings, and preparing for the interview.
 
 #- name: DSA Learning
 #  description: A workshop on Data Structures by GeeksforGeeks
@@ -97,7 +97,7 @@
   organiser: Trivialis
   date: 27/10/20
   time: 5:30 PM - 7:30 PM
-  registration: https://forms.gle/3rQyAUmEXLJe96eZ9
+  registration: https://dare2compete.com/o/bachmanity-insanity20-tech-quiz-elysium20-indraprastha-institute-of-information-technology-iiit-delhi-129644
   details: |
     Put your knowledge about all things technology to the test with Elysium’s Tech Quiz, 'Bachmanity Insanity' and have some fun in the process.
 
