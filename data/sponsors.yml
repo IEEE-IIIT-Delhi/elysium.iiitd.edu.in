@@ -5,6 +5,10 @@
 - name: Nescafé
   link: https://www.nescafe.com/in/
   image: /images/sponsors/nescafe.png
+  
+- name: Lumos Labs
+  link: https://www.lumoslabs.co
+  image: /images/sponsors/lumoslabs.png
 
 - name: ShubhiTech
   link: https://www.shubhitech.com
@@ -30,6 +34,10 @@
   link: https://wolfram.com/
   image: /images/sponsors/wolfram.png
 
+- name: Code Asylums
+  link: https://www.codeasylums.com
+  image: /images/sponsors/codeasylums.png
+  
 - name: .XYZ
   link: https://gen.xyz/
   image: /images/sponsors/xyz.png
