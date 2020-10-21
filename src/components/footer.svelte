@@ -11,7 +11,11 @@
     />
     Elysium is undertaken, organised and hosted by <a href="https://ieee.iiitd.edu.in" target="_blank" rel="noopener">IEEE @ IIIT Delhi</a>
   </p>
-  <p>Built by <a href="https://mihir.ch" target="_blank" rel="noopener">Mihir Chaturvedi</a> &middot; Graphics by Prakhar Prasad</p>
+  <p>
+    Built by <a href="https://mihir.ch" target="_blank" rel="noopener">Mihir Chaturvedi</a>
+    &middot;
+    Graphics by <a href='https://prakhar3009.github.io/prakhar/' target="_blank" rel="noopener">Prakhar Prasad</a>
+  </p>
   <p>&copy; 2020 IEEE - IIIT Delhi</p>
 </footer>
 
