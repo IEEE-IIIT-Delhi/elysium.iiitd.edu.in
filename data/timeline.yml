@@ -99,6 +99,17 @@
   registration: https://forms.gle/pCN2sP4LxkNfe2Rz5
   details: |
     Test your literature, pop culture and anime knowledge with this fun and lit quiz. A great way to gauge your fixation on that favourite fandom of the month.
+    
+- name: Nescafé Selfies of the Day!
+  description: Fun event
+  organiser: IEEE IIITD in association with Nescafé
+  date: 26/10/2020
+  time: All Day
+  # registration: https://forms.gle/pCN2sP4LxkNfe2Rz5
+  details: |
+    Engage your family and click the most amazing selfies with your cup of Nescafé, and show us how Nescafé helps you get through your day in quarantine.
+
+    Use the following hashtags- #Nescafé  #NoSleepGang #eatsleepcoderepeat   
 
 - name: Bachmanity Insanity
   description: A General Quiz
@@ -135,6 +146,20 @@
 
     Humans have been using innumerous websites since the beginning of the internet at the end of the 20th century. But if you are one of those who has got the creativity and skills to develop them, register for this event today!
 
+- name: Nescafé Recipe Showdown!
+  description: Fun Event
+  organiser: IEEE IIITD in association with Nescafé
+  date: 27/10/20
+  time: All day
+  #registration: https://forms.gle/484sVYVBa3xxW6v88
+  details: |
+    Time to put your chef caps on!
+
+    Recreate your special and unique Nescafé recipe in your favorite Nescafé cup and showcase it to us, and what motivated you to create it.
+
+    You are free to beautify your Nescafé using some amazing "Latte Art", special prizes for the best looking Nescafé!
+    
+
 - name: Data Unchained
   description: ML based competitive events
   organiser: IEEE
@@ -162,6 +187,19 @@
     - The teams with maximum profit at the end of 5 rounds win.
     - Team Size: 2
     - Individual entries are also allowed
+    
+- name: Learn From the Experts!
+  description: Fun Event
+  organiser: IEEE IIITD in association with Nescafé
+  date: 28/10/20
+  time: All day
+  #registration: https://forms.gle/484sVYVBa3xxW6v88
+  details: |
+    Want to learn a new and exciting Nescafé recipe from the professionals?
+
+    This is the place to be.
+
+    Welcome to a live demonstration organized by Nestlé where the chefs are going to walk you through their innovative spin on the classic Nescafé we know and will share with you some key tips and tricks for making your own cups.
 
 - name: BCodeIt
   description: A Datascience event
@@ -310,3 +348,10 @@
     -- The background music can be taken from YouTube and the music should be a Non-Copyright Song or Royalty- 
     free.
     -- Max length 3 minutes
+    
+    Special Category (with Special Prizes!) - A Day in Lockdown with Nescafé!
+    
+    Make an amazing video replicating a full day in quarantine with your special cup of Nescafé and the role it plays in your life at various points in the day.
+
+    Tell us about your most memorable Nescafé experience and your favorite person to share it with, all in the same video.
+    
