@@ -93,7 +93,7 @@
 
 - name: The Lit Quiz
   description: A Literary, anime and pop culture quiz
-  organiser: Litsoc
+  # organiser: Litsoc
   date: 26/10/2020
   time: 5:30 PM - 8:30 PM
   registration: https://forms.gle/pCN2sP4LxkNfe2Rz5
@@ -126,7 +126,7 @@
 
 - name: TechTalk
   description: Tech based Group Discussion/ Debate
-  organiser: Litsoc
+  # organiser: Litsoc
   date: 27/10/20
   time: 5:30 PM - 8:30 PM
   registration: https://forms.gle/484sVYVBa3xxW6v88
@@ -275,7 +275,7 @@
 
 - name: Improv Poetry
   description: Writing poetry on prompts given on the spot
-  organiser: Litsoc
+  # organiser: Litsoc
   date: 31/10/20
   time: 5:30 PM - 8:00 PM
   registration: https://forms.gle/ALvK3YFPboXFuX236
