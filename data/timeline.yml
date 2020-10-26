@@ -218,22 +218,6 @@
     - In case of tie between two participants, the person completing the contest in less time would be given preference.
     - Cash prizes to the top 3 participants would be awarded.
 
-- name: ZPT
-  description: Zero Pre-requisite Tournament
-  organiser: Evariste
-  date: 29/10/20
-  time: 5:30 PM - 8:30 PM
-  registration: https://forms.gle/2DsdNzrK9QbdKc8TA
-  details: |
-    Team Size: 1
-
-    The Zero Pre-requisite Tournament is a mathematics problem-solving event where participants have to solve questions based on a topic they have been given on the spot.
-
-    **Description:**
-    - The main idea behind the ZPT is that the participants need no prior knowledge of the topic at hand - in fact, the less they know, the better, as a fresh mind with no preconceptions makes understanding the material more seamless.
-    - Everyone stands as equals.
-    - Relevant material will be provided during the tournament, and ample time will be given to digest it and clarify doubts.
-
 - name: Prosort Junior
   description: Online Programming Contest for school students
   organiser: Foobar
@@ -272,6 +256,21 @@
   registration: https://saddahack.tech
   details: |
     The Big-Fat Hackathon. SaddaHack is the prime event of Elysium'20. With total prize money of worth 1.5Lac and a platform to go head-to-head with the best competitors, It's going to be a fun-filled 2 days with the most interesting problem-set to develop & solve.
+- name: ZPT
+  description: Zero Pre-requisite Tournament
+  organiser: Evariste
+  date: 30/10/20
+  time: 5:30 PM - 8:30 PM
+  registration: https://forms.gle/2DsdNzrK9QbdKc8TA
+  details: |
+    Team Size: 1
+
+    The Zero Pre-requisite Tournament is a mathematics problem-solving event where participants have to solve questions based on a topic they have been given on the spot.
+
+    **Description:**
+    - The main idea behind the ZPT is that the participants need no prior knowledge of the topic at hand - in fact, the less they know, the better, as a fresh mind with no preconceptions makes understanding the material more seamless.
+    - Everyone stands as equals.
+    - Relevant material will be provided during the tournament, and ample time will be given to digest it and clarify doubts.
 
 - name: Improv Poetry
   description: Writing poetry on prompts given on the spot
